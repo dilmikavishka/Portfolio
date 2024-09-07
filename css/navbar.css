@@ -28,7 +28,7 @@
 }
 
 
-#navbar > a::before {
+/*#navbar > a::before {
     content: " ";
     display: block;
     width: 0;
@@ -40,15 +40,12 @@
     left: 5px;
     opacity: 0;
     transition: all 0.3s ease;
-}
+}*/
 
-#navbar > a:hover::before,
+/*#navbar > a:hover::before,
 #navbar > a.active::before {
     width: 100%;
     opacity: 1;
-}
+}*/
 
 
-/*hemawelawema position ek center krddi ek ceneter wenw eth eke origina ek ceneter wenne*/
-/*e kiynne e object eke top left ek ekt apita translate kiyn ek use krnn puluwn*/
-/*translate : -50% -50% ;*/

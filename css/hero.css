@@ -13,14 +13,12 @@
     font-family: "Inter", sans-serif;
     font-size: 27px;
     font-weight: bold;
-    /*color: #F1F1F1;*/
     color: #8CED05;
     width: 28%;
     left: 70%;
     margin-top: 6%;
 }
-/*
-ammage postiosn*/
+
 #HeroMediaContainer{
     position: relative;
     left: 5%;
@@ -45,7 +43,6 @@ ammage postiosn*/
     height: 100%;
     object-fit: cover;
     position: absolute;
-    top: 0;
     top: 0;
     left: 0;
 }
