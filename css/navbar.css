@@ -6,26 +6,60 @@
     left: 10px;
 }
 
-
-#navbar{
-    position: absolute;
-    width: 50%;
-    left: 56%;
-    bottom: 650px;
-
+header {
+    /*background: lightblue;*/
+    width: 100vw;
+    position: fixed;
+    top: 0;
 }
-
-#navbar>a{
-    position: relative;
+/*#header-logo {*/
+/*    display: flex;*/
+/*}*/
+header>nav {
+    height: fit-content;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    bottom: 0;
+    margin: auto;
     font-family: "Roboto", sans-serif;
     font-weight: normal;
     font-size: 18px;
     color: #F1F1F1;
     text-decoration: none;
-    padding-left: 1rem;
-    transition: all ease-in 0.4s;
-    cursor: pointer;
 }
+header>nav>ul {
+    list-style: none;
+    margin: 0px;
+}
+header>nav>ul>li {
+    padding: 0px 10px;
+    display: inline;
+}
+header>nav>ul>li>a {
+    color: #F1F1F1;
+    text-decoration: none;
+}
+
+/*#navbar{*/
+/*    position: absolute;*/
+/*    width: 50%;*/
+/*    left: 56%;*/
+/*    bottom: 650px;*/
+
+/*}*/
+
+/*#navbar>a{*/
+/*    position: relative;*/
+/*    font-family: "Roboto", sans-serif;*/
+/*    font-weight: normal;*/
+/*    font-size: 18px;*/
+/*    color: #F1F1F1;*/
+/*    text-decoration: none;*/
+/*    padding-left: 1rem;*/
+/*    transition: all ease-in 0.4s;*/
+/*    cursor: pointer;*/
+/*}*/
 
 
 /*#navbar > a::before {
