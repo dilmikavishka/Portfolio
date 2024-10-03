@@ -2,52 +2,42 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Portfolio-My</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/navbar.css">
-    <link rel="stylesheet" href="css/hero.css">
-    <link rel="stylesheet" href="css/about.css">
-    <link rel="stylesheet" href="css/Education.css">
-    <link rel="stylesheet" href="css/Skills.css">
-    <link rel="stylesheet" href="css/project.css">
-    <link rel="stylesheet" href="css/Footer.css">
+    <title>Title</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 <body>
 <div id="animated-line"></div>
-
-<!--header-->
 <header>
-    <!--navigation-->
-    <nav id="navbar">
-        <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#skill">Skill</a></li>
-                <li><a href="">Project</a></li>
-                <li><a href="">Assignment</a></li>
-                <li><a href="">Gallery</a></li>
-                <li><a href="">Contact</a></li>
-        </ul>
-    </nav>
+    <div class="hamburger" id="hamburger">&#9776;</div>
+    <div class="logo"><a href="#"><span>D</span>ilmi</a></div>
+    <ul class="navList" id="navList">
+        <li><a href="#hero" style="--i:1;">Home</a></li>
+        <li><a href="#about" style="--i:1.5;">About me</a></li>
+        <li><a href="#education" style="--i:2;">Education</a></li>
+        <li><a href="#" style="--i:2.5;">Skills</a></li>
+        <li><a href="#" style="--i:3;">Project</a></li>
+        <li><a href="#assignments" style="--i:3.5;">Assignment</a></li>
+        <li><a href="#contact" style="--i:4;">Contact me</a></li>
+        <i class='bx bxs-moon' id="icon"></i>
+    </ul>
 </header>
 
 <!--hero section-->
 <section id="hero">
     <div id="middleLineHero"></div>
-    <h2 id="HeroStarter">Full stack developer</h2>
+    <h2 id="HeroStarter">Full stack <span style="color: #F1F1F1">D</span>eveloper</h2>
     <p id="HeroPara">"Freelance Developer specializing in StandAlone,Web, Mobile, Design."</p>
-    <div id="HeroMediaContainer">
-        <div >
-        </div>
-    </div>
+    <p id="HeroPara3">specializing in StandAlone,Web, Mobile, Design.</p>
+    <p id="HeroPara2">Freelance Developer</p>
     <div id="HeroPicture">
         <img src="assets/image/pic1.jpg" id="imagefitHero">
     </div>
 </section>
 
-<!--about-->
+<!--about section-->
 <section id="about">
     <div id="aboutStarter">
         <h2>About <span id="bold-text">Me</span></h2>
@@ -69,7 +59,7 @@
     </div>
 </section>
 
-<!--education-->
+<!--education section-->
 <section id="education">
     <div id="educationStarter">
         <h2>
@@ -106,64 +96,105 @@
     </div>
 </section>
 
-<section id="skill">
-    <div id="skillStarter">
-        <h2>Skills</h2>
-        <div class="skills-container">
-            <div class="skill">
-                <img src="assets/icons/icons8-html-240.png" alt="HTML">
+<!--project section-->
+
+<!--assignment section-->
+<section id="assignments">
+    <div id="assignmentStarter">
+        <h2><span style="font-weight: normal">My</span> <span style="color: #8ced05">Assignments</span></h2>
+    </div>
+    <div class="assignments-container">
+        <div class="assignment-card">
+            <div class="card-inner">
+                <div class="card-front">
+                    <h3 class="Title-Assignment">Assignment 1</h3>
+                </div>
+                <div class="card-back">
+                    <p class="Description-Assignment">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum</p>
+                    <a href="#" class="link-Assignment" target="_blank">View On Github</a>
+                </div>
             </div>
-            <div class="skill">
-                <img src="assets/icons/icons8-css-240.png" alt="CSS">
+        </div>
+        <div class="assignment-card">
+            <div class="card-inner">
+                <div class="card-front">
+                    <h3 class="Title-Assignment">Assignment 2</h3>
+                </div>
+                <div class="card-back">
+                    <p class="Description-Assignment">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum</p>
+                    <a href="#" class="link-Assignment" target="_blank">View On Github</a>
+                </div>
             </div>
-            <div class="skill">
-                <img src="assets/icons/icons8-java-240.png" alt="Java">
+        </div>
+        <div class="assignment-card">
+            <div class="card-inner">
+                <div class="card-front">
+                    <h3 class="Title-Assignment">Assignment 3</h3>
+                </div>
+                <div class="card-back">
+                    <p class="Description-Assignment">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum</p>
+                    <a href="#" class="link-Assignment" target="_blank">View On Github</a>
+                </div>
+            </div>
+        </div>
+        <div class="assignment-card">
+            <div class="card-inner">
+                <div class="card-front">
+                    <h3 class="Title-Assignment">Assignment 4</h3>
+                </div>
+                <div class="card-back">
+                    <p class="Description-Assignment">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum</p>
+                    <a href="#" class="link-Assignment" target="_blank">View On Github</a>
+                </div>
             </div>
         </div>
     </div>
 </section>
 
-<!--project-->
-<section id="project">
-    <div id="projectStarter">
-        <h2><span style="color:#8CED05;">Projects</span> And <span style="color: #8CED05">Case-Studies</span></h2>
+
+
+<!--contact me-->
+<section id="contact">
+    <div id="contactMeStarter">
+        <h2>Contact <span style="color: #8ced05">Me</span></h2>
     </div>
-    <div class="projectContainer">
-        <h2 class="projectTopic">Crescent Management System</h2>
-        <div class="projectImage">
-            <img src="assets/image/Screenshot%202024-07-21%20020853.png" alt="Project Image 1">
-        </div>
-        <div class="projectDesc">
-            <p>
-                This project was done for a button company that supplies buttons to Sri lanka since 2016. Although everything was done manually, I was able to make a Crescent Button Management system to automate this processes. This system allows the company to manage and track button orders, inventory levels, and customer inquiries in real-time.
-            </p>
-        </div>
-        <button class="projectButton">
-            <a style="text-decoration: none ; color: #03000F" href="https://github.com/dilmikavishka/Final-Project" target="_blank">Github</a>
-        </button>
-
-    </div>
-
-    <div class="projectContainer">
-        <h2 class="projectTopic">Connect 4 Game</h2>
-        <div class="projectImage">
-            <img src="assets/image/connect.jpg" alt="Project Image 1">
-        </div>
-        <div class="projectDesc">
-            <p>
-                This project was created using min max algorithm and also using object oriented programming concepts.This was further developed using JavaFx,Java.This is a great game for someone who is going to develop ai in the future.This is one of the best easiest algorithms for developing board games
-            </p>
-        </div>
-
-        <button class="projectButton">
-            <a style="text-decoration: none ; color: #03000F" href="https://github.com/dilmikaavishka/CrescentButtonManagementSystem" target="_blank">Github</a>
-        </button>
+    <div id="contactMeForm">
+        <form action="">
+            <input type="text" id="name-Contactme" name="name" placeholder="Name" required>
+            <input type="email" id="email-Contactme" name="email" placeholder="Email" required>
+            <textarea id="message" name="message" placeholder="Message" required></textarea>
+            <button type="submit" id="contact-submit">Send Email</button>
+        </form>
     </div>
 </section>
 
+<!--footer-->>
 <footer>
-    <h4>Developed By Dilmi Kavishka</h4>
+    <p>Copyright &copy; 2024 by Dilmi Kavishka || All Right Reserved.</p>
 </footer>
 
+
+<!-- JavaScript -->
+<!--AOS Animation-->
+
+JavaScript -->
+<script>
+    const hamburger = document.getElementById('hamburger');
+    const navList = document.getElementById('navList');
+    const body = document.body;
+
+    hamburger.addEventListener('click', () => {
+        navList.classList.toggle('active');
+        body.classList.toggle('blur-background');
+    });
+
+</script>
+
+
+<script>
+    AOS.init();
+</script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="lib/jquery.min.js"></script>
 </body>
 </html>
