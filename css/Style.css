@@ -873,6 +873,112 @@ footer a{
         perspective: 1000px;
         margin-bottom: 20px;
     }
+
+    /*contact me and footer*/
+    #contactMeStarter {
+        position: relative;
+        color: #F1F1F1;
+        font-family: "Inter", sans-serif;
+        font-weight: normal;
+        font-size: 30px;
+        margin-top: 50px;
+        margin-left: 300px;
+        align-items: center;
+    }
+
+    #contactMeForm{
+        position: relative;
+        width: 70%;
+        height: 620px;
+        top: 70px;
+        left: 20%;
+        border-radius: 30px;
+    }
+
+    #name-Contactme{
+        /*textcolor*/
+        color: #F1F1F1;
+        font-family: "Inter", sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        margin-top: 20px;
+        width: 90%;
+        margin-left: 5%;
+        height: 60px;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+    #email-Contactme{
+        color: #F1F1F1;
+        font-family: "Inter", sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        margin-top: 20px;
+        width: 90%;
+        margin-left: 5%;
+        height: 60px;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+    #contactMeForm textarea {
+        color: #F1F1F1;
+        font-family: "Inter", sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        position: relative;
+        top: 20px;
+        width: 90%;
+        left: 5%;
+        height: 300px;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+
+    #contact-submit{
+        background-color: #F1F1F1;
+        color: #03000F;
+        font-family: "Inter", sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        margin-top: 20px;
+        width: 50%;
+        margin-left: 25%;
+        padding: 10px 20px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    footer{
+        width: 108% !important;
+        margin-top: 100px;
+        background: #F1F1F1;
+        padding: 1.5rem 10%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    footer p{
+        font-family: "Inter", sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        background-color: transparent;
+        color: #03000F;
+    }
+
+    footer a{
+        display: inline-flex;
+        justify-content: center;
+        /*color: var(--bg-color);*/
+        /*background: var(--hover-color);*/
+        padding: .6rem;
+        border-radius: 5px;
+    }
+
 }
 
 
