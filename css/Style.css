@@ -685,6 +685,49 @@ footer a{
     }
 
 
+    /*<!--hero section-->*/
+    #HeroStarter{
+        position: relative;
+        font-family: "Inter", sans-serif;
+        font-size: 25px;
+        color: #8CED05;
+        margin-top: 37%;
+        left: 2%;
+    }
+
+    #HeroPara{
+        /*position: relative;*/
+        font-family: "Inter", sans-serif;
+        font-size: 22px;
+        font-weight: bold;
+        color: #8CED05;
+        width: 33%;
+        margin-left: 74%;
+        margin-top:3%;
+    }
+
+    #HeroPara2{
+        display: none;
+    }
+
+    #HeroPara3{
+        display: none ;
+    }
+
+    #HeroPicture {
+        left: 34%;
+        top: 33%;
+        width: 300px;
+        height: 300px;
+        border: 5px solid #8CED05;
+        position: absolute;
+        border-radius: 50%;
+        overflow: hidden;
+        animation: subtleHeartbeat 10s infinite;
+    }
+
+
+
 
 }
 
