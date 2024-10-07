@@ -773,6 +773,83 @@ footer a{
         margin-left: 420px;
     }
 
+    /*/education starter/*/
+
+    #educationStarter {
+        position: relative;
+        color: #8CED05;
+        font-family: "Inter", sans-serif;
+        font-weight: normal;
+        font-size: 24px;
+        width: 100%;
+        margin-top: 100px;
+        margin-left: 150px;
+        align-items: center;
+    }
+
+    #educationStarterDown{
+        position: relative;
+        color: #F1F1F1;
+        font-family: "Roboto", sans-serif !important;
+        font-size: 18px;
+        margin-left: 250px;
+        margin-top: 20px;
+    }
+
+
+    .EducationContainer {
+        position: relative;
+        color: #F1F1F1;
+        border: 2px solid #413e3e;
+        width: 50%;
+        height: 500px;
+        border-radius: 20px 0px 20px 0px;
+        margin-top: 5%;
+        margin-left: 4%;
+        transition: transform 1s ease, border-color 0.3s ease;
+    }
+
+
+    .uniNameEdu{
+        position: relative;
+        color: #8CED05;
+        font-family: "Inter", sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        margin-top: 80px;
+        margin-left: 18px;
+    }
+
+    .uniMajorCat{
+        color: #F1F1F1;
+    }
+
+    .uniMajorEdu{
+        position: absolute;
+        color: #8CED05;
+        font-family: "Inter", sans-serif;
+        font-weight: bold;
+        font-size: 15px;
+        margin-top: 20px;
+        margin-left: 18px;
+    }
+
+    .uniDescEdu{
+        position: absolute;
+        color: #F1F1F1;
+        font-family: "Inter", sans-serif;
+        font-weight: normal;
+        font-size: 15px;
+        margin-top: 60px;
+        margin-left: 18px;
+        letter-spacing: 1px;
+
+    }
+
+
+
+
+
 }
 
 
