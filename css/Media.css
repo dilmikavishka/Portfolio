@@ -1633,6 +1633,55 @@
         margin-top: 30px;
     }
 
+    .slider-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 100px;
+        margin-left: 130px;
+    }
+
+    #assignmentStarter {
+        color: #F1F1F1;
+        font-family: "Inter", sans-serif;
+        font-size: 30px;
+        text-align: center;
+        margin-top: 80px;
+        width: 100%;
+        margin-left: 90px !important;
+    }
+    .assignments-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px;
+        padding-top: 40px;
+        justify-items: center;
+    }
+    .assignment-card {
+        margin-left: 160px;
+        position: relative;
+        width: 100%;
+        max-width: 500px;
+        height: 300px;
+        perspective: 1000px;
+        margin-bottom: 20px;
+    }
+
+    #galleryStarter {
+        font-family: "Inter", sans-serif;
+        font-size: 30px;
+        text-align: center;
+        margin-top: 80px;
+        width: 100%;
+        margin-left: 90px !important;
+    }
+
+    .gallery-grid{
+        margin-top: 80px;
+        margin-left: 90px !important;
+    }
+
 
 
 
