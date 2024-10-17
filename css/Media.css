@@ -1682,7 +1682,61 @@
         margin-left: 90px !important;
     }
 
+    #contactMeStarter {
+        position: relative;
+        color: #F1F1F1;
+        font-family: "Inter", sans-serif;
+        font-weight: normal;
+        font-size: 30px;
+        margin-top: 50px;
+        margin-left: 150px;
+        align-items: center;
+    }
 
+    #contactMeForm{
+        position: relative;
+        width: 100%;
+        height: 620px;
+        top: 70px;
+        left: 15%;
+        border-radius: 30px;
+    }
+    #contact-submit{
+        background-color: #F1F1F1;
+        color: #03000F;
+        font-family: "Inter", sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        margin-top: 20px;
+        width: 60%;
+        margin-left: 20%;
+        padding: 10px 20px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+    footer{
+        width:134%!important;
+        margin-top: 100px;
+        background: #F1F1F1;
+        padding: 1.5rem 10%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 
+    footer p{
+        font-family: "Inter", sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        background-color: transparent;
+        color: #03000F;
+    }
 
+    footer a{
+        display: inline-flex;
+        justify-content: center;
+        padding: .6rem;
+        border-radius: 5px;
+    }
 }
