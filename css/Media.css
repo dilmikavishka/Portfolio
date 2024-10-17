@@ -986,7 +986,84 @@
         margin-bottom: 20px;
     }
 
+    /*contact me and footer*/
+    #contactMeStarter {
+        position: relative;
+        color: #F1F1F1;
+        font-family: "Inter", sans-serif;
+        font-weight: normal;
+        font-size: 30px;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        align-items: center;
+    }
 
+    #contactMeForm{
+        position: relative;
+        width: 70%;
+        height: 620px;
+        top: 70px;
+        left: 18%;
+        border-radius: 30px;
+    }
+
+    #name-Contactme{
+        /*textcolor*/
+        color: #F1F1F1;
+        font-family: "Inter", sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        margin-top: 20px;
+        width: 90%;
+        margin-left: 5%;
+        height: 60px;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+    #email-Contactme{
+        color: #F1F1F1;
+        font-family: "Inter", sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        margin-top: 20px;
+        width: 90%;
+        margin-left: 5%;
+        height: 60px;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+    #contactMeForm textarea {
+        color: #F1F1F1;
+        font-family: "Inter", sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        position: relative;
+        top: 20px;
+        width: 90%;
+        left: 5%;
+        height: 300px;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+    #contact-submit{
+        background-color: #F1F1F1;
+        color: #03000F;
+        font-family: "Inter", sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        margin-top: 20px;
+        width: 50%;
+        margin-left: 25%;
+        padding: 10px 20px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
     footer{
         width: 108% !important;
         margin-top: 100px;
