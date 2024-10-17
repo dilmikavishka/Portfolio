@@ -680,3 +680,183 @@
 
 
 }
+
+@media (max-width: 768px) {
+    .gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .slider {
+        gap: 10px;
+    }
+
+    .project-card {
+        min-width: 220px;
+        max-width: 250px;
+    }
+}
+
+@media  all and (max-width:768px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    header {
+        position: fixed;
+        top: 0;
+        z-index: 1000;
+        border-bottom: 1px solid transparent;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 20px 60px;
+    }
+
+    .navList {
+        flex-grow: 1;
+        display: flex;
+        justify-content: center;
+        padding-left: 10px;
+    }
+
+    .logo {
+        flex-grow: 0;
+        margin-right: auto;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .navList a {
+        display: inline-block;
+        color: whitesmoke;
+        font-weight: 500;
+        padding: 6px 10px;
+        font-size: 0.7rem ;
+        animation: slideAnimation 1s ease forwards;
+        opacity: 0;
+    }
+
+    #middleLineHero{
+        position: absolute;
+        top: 59%;
+
+        width: 108.2%;
+        height: 2px;
+        background-color: #8CED05;
+    }
+
+    /*<!--hero section-->*/
+    #HeroStarter {
+        position: relative;
+        font-family: "Inter", sans-serif;
+        font-size: 70px;
+        color: #8CED05;
+        margin-top: 30%;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        display: inline-block;
+        width: 100%;
+        height: 200px;
+        overflow: hidden;
+        white-space: nowrap;
+        box-sizing: border-box;
+        animation: typing 7s ease-in-out infinite;
+    }
+
+    @keyframes typing {
+        from {
+            width: 0;
+        }
+        to {
+            width: 100%;
+        }
+    }
+
+    #HeroPara{
+        position: relative;
+        font-family: "Inter", sans-serif;
+        font-size: 25px;
+        font-weight: bold;
+        color: #F1F1F1;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        margin-bottom: 20%;
+    }
+    #HeroPara2{
+        display: none;
+    }
+
+    #HeroPara3{
+        display: none ;
+    }
+
+    #HeroPicture {
+        display: none;
+        left: 34%;
+        top: 35% !important;
+        width: 280px !important;
+        height: 280px !important;
+        border: 5px solid #8CED05;
+        position: absolute;
+        border-radius: 50%;
+        overflow: hidden;
+        animation: subtleHeartbeat 10s infinite;
+    }
+
+    /*about section*/
+    #aboutStarter {
+        position: relative;
+        color: #8CED05;
+        font-family: "Inter", sans-serif;
+        font-weight: normal;
+        font-size: 27px;
+        margin-top: 100px;
+        margin-left: 40%;
+    }
+
+    @keyframes shake {
+        0% { transform: translateX(0); }
+        25% { transform: translateX(-5px); }
+        50% { transform: translateX(5px); }
+        75% { transform: translateX(-5px); }
+        100% { transform: translateX(0); }
+    }
+
+    #aboutPicture {
+        margin-top: 80px;
+        margin-left: 100px;
+        border-radius: 0px 5px 0px 5px;
+        width: 300px;
+        height: 400px;
+        border: 5px solid #8CED05;
+        box-shadow: 0 0 10px #413e3e;
+        overflow: hidden;
+    }
+
+    #aboutPicture img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    #aboutParagraph{
+        position: absolute;
+        font-family: "Inter", sans-serif;
+        color: #F1F1F1;
+        font-size: 20px;
+        letter-spacing: 1px;
+        width: 45% ;
+        margin-top: -400px;
+        margin-left: 420px;
+    }
+
+
+}
