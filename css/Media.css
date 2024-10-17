@@ -1740,3 +1740,64 @@
         border-radius: 5px;
     }
 }
+
+@media all and (max-width: 376px) {
+    #HeroStarter {
+        position: relative;
+        font-family: "Inter", sans-serif;
+        font-size: 38px !important;
+        color: #8CED05;
+        margin-top: 50%;
+        left: 80%;
+        transform: translateX(-50%);
+        text-align: center;
+        display: inline-block;
+        width: 100%;
+        height: 200px;
+        overflow: hidden;
+        white-space: nowrap;
+        box-sizing: border-box;
+        animation: typing 7s ease-in-out infinite;
+    }
+    @keyframes typing {
+        from {
+            width: 0;
+        }
+        to {
+            width: 100%;
+        }
+    }
+    #HeroPara{
+        position: absolute;
+        font-family: "Inter", sans-serif;
+        font-size: 25px;
+        font-weight: bold;
+        color: #F1F1F1;
+        width: 100%;
+        left: auto;
+        right: auto;
+        text-align: center;
+        bottom: 20% !important;
+    }
+
+    #aboutStarter {
+        position: relative;
+        color: #8CED05;
+        font-family: "Inter", sans-serif;
+        font-weight: normal;
+        font-size: 27px;
+        width: 100%;
+        margin-top: 250px;
+        margin-left: 200px;
+        margin-right: auto;
+
+    }
+    #aboutPicture{
+        margin-left: 120px;
+    }
+    #aboutParagraph{
+        margin-left: 120px;
+    }
+
+
+}
