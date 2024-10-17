@@ -159,8 +159,6 @@ footer p{
 footer a{
     display: inline-flex;
     justify-content: center;
-    /*color: var(--bg-color);*/
-    /*background: var(--hover-color);*/
     padding: .6rem;
     border-radius: 5px;
 }
