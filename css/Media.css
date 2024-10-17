@@ -436,6 +436,20 @@
 
 }
 
+/*
+@media (max-width: 480px) {
+    .gallery-grid {
+        width: 100%;
+        grid-template-columns: 15rem 15rem;
+        grid-gap: 10px;
+        justify-content: center;
+        padding-right: 35px;
+    }
+
+}
+
+
+*/
 @media  all and (max-width: 868px) {
     body {
         overflow-x: hidden;
@@ -1332,14 +1346,6 @@
 
     }
 }
-
-/*@media (max-width: 480px) {*/
-/*    .gallery-grid {*/
-/*        width: 100%;*/
-/*        grid-template-columns: 1fr 1fr;*/
-/*        grid-gap: 10px;*/
-/*    }*/
-/*}*/
 
 @media (max-width: 480px) {
     .gallery-grid {
