@@ -1,0 +1,1978 @@
+@media (max-width: 1024px) {
+    .gallery-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media all and (max-width: 1024px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    header {
+        position: fixed;
+        top: 0;
+        z-index: 1000;
+        border-bottom: 1px solid transparent;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 120%;
+        padding: 20px 20px;
+    }
+
+    header.sticky {
+        background: whitesmoke;
+        border-bottom: 1px solid whitesmoke;
+        padding: 12px 10%;
+    }
+
+    .logo{
+        font-size: 26px;
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+
+    .logo a {
+        text-decoration: none;
+        color: #8CED05;
+    }
+
+    span {
+        color: white;
+    }
+
+    .navList {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    #icon {
+        font-size: 2.5rem;
+        margin-left: 40px;
+        cursor: pointer;
+    }
+
+    .hamburger {
+        display: none;
+        font-size: 2rem;
+        cursor: pointer;
+        color: #8CED05;
+    }
+
+    .navList a {
+        display: inline-block;
+        color: whitesmoke;
+        font-weight: 500;
+        padding: 10px 20px;
+        font-size: 1.1rem;
+        animation: slideAnimation 1s ease forwards;
+        opacity: 0;
+    }
+
+    #middleLineHero{
+        position: absolute;
+        top: 59%;
+
+        width: 108.2%;
+        height: 2px;
+        background-color: #8CED05;
+    }
+
+
+    /*<!--hero section-->*/
+    #HeroStarter {
+        position: relative;
+        font-family: "Inter", sans-serif;
+        font-size: 100px;
+        color: #8CED05;
+        margin-top: 16%;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        display: inline-block;
+        width: 100%;
+        height: 200px;
+        overflow: hidden;
+        white-space: nowrap;
+        box-sizing: border-box;
+        animation: typing 7s ease-in-out infinite;
+    }
+
+    @keyframes typing {
+        from {
+            width: 0;
+        }
+        to {
+            width: 100%;
+        }
+    }
+
+
+
+
+    #HeroPara{
+        position: relative;
+        font-family: "Inter", sans-serif;
+        font-size: 25px;
+        font-weight: bold;
+        color: #F1F1F1;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        margin-top: 1%;
+    }
+
+    #HeroPara2{
+        display: none;
+    }
+
+    #HeroPara3{
+        display: none ;
+    }
+
+    #HeroPicture {
+        display: none;
+        left: 34%;
+        top: 25%;
+        width: 400px;
+        height: 400px;
+        border: 5px solid #8CED05;
+        position: absolute;
+        border-radius: 50%;
+        overflow: hidden;
+        animation: subtleHeartbeat 10s infinite;
+    }
+
+    /*about section*/
+    #aboutStarter {
+        position: relative;
+        color: #8CED05;
+        font-family: "Inter", sans-serif;
+        font-weight: normal;
+        font-size: 30px;
+        margin-top: 250px;
+        margin-left: 450px;
+    }
+
+    @keyframes shake {
+        0% { transform: translateX(0); }
+        25% { transform: translateX(-5px); }
+        50% { transform: translateX(5px); }
+        75% { transform: translateX(-5px); }
+        100% { transform: translateX(0); }
+    }
+
+    #aboutPicture {
+        margin-top: 80px;
+        margin-left: 160px;
+        border-radius: 0px 5px 0px 5px;
+        width: 300px;
+        height: 400px;
+        border: 5px solid #8CED05;
+        box-shadow: 0 0 10px #413e3e;
+        overflow: hidden;
+    }
+
+    #aboutPicture img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    #aboutParagraph{
+        position: absolute;
+        font-family: "Inter", sans-serif;
+        color: #F1F1F1;
+        font-size: 20px;
+        letter-spacing: 1px;
+        width: 45% ;
+        margin-top: -400px;
+        margin-left: 510px;
+    }
+
+
+    /*/education starter/*/
+
+    #educationStarter {
+        position: relative;
+        color: #8CED05;
+        font-family: "Inter", sans-serif;
+        font-weight: normal;
+        font-size: 27px;
+        width: 100%;
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        align-items: center;
+    }
+
+    #educationStarterDown{
+        position: relative;
+        color: #F1F1F1;
+        font-family: "Roboto", sans-serif !important;
+        font-size: 18px;
+        margin-left: 380px;
+        margin-top: 20px;
+    }
+
+
+    .EducationContainer {
+        position: relative;
+        color: #F1F1F1;
+        border: 2px solid #413e3e;
+        width: 25%;
+        height: 500px;
+        border-radius: 20px 0px 20px 0px;
+        margin-top: 5%;
+        margin-left: 6%;
+        transition: transform 1s ease, border-color 0.3s ease;
+    }
+
+    /*skills*/
+    #skillsStarter {
+        position: relative;
+        color: #F1F1F1;
+        font-family: "Inter", sans-serif;
+        font-weight: normal;
+        font-size: 30px;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        width: fit-content;
+        align-items: center;
+    }
+
+
+    .uniNameEdu{
+        position: relative;
+        color: #8CED05;
+        font-family: "Inter", sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        margin-top: 80px;
+        margin-left: 18px;
+    }
+
+    .uniMajorCat{
+        color: #F1F1F1;
+    }
+
+    .uniMajorEdu{
+        position: absolute;
+        color: #8CED05;
+        font-family: "Inter", sans-serif;
+        font-weight: bold;
+        font-size: 15px;
+        margin-top: 20px;
+        margin-left: 18px;
+    }
+
+    .uniDescEdu{
+        position: absolute;
+        color: #F1F1F1;
+        font-family: "Inter", sans-serif;
+        font-weight: normal;
+        font-size: 15px;
+        margin-top: 60px;
+        margin-left: 18px;
+        letter-spacing: 1px;
+
+    }
+
+    .icons-git {
+        cursor: pointer;
+        margin-left: 20px;
+        background: transparent;
+        font-size: 2rem; /* Make the icon large */
+        margin-top: 1px;
+        color: black; /* White icon */
+        transition: color 0.3s ease;
+    }
+
+    .icons-git:hover {
+        color: #333333; /* Change color on hover to bright green */
+    }
+
+    /*assignment section*/
+    #assignmentStarter {
+        color: #F1F1F1;
+        font-family: "Inter", sans-serif;
+        font-size: 27px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        align-items: center;
+    }
+
+    .assignments-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        padding: 20px;
+        justify-items: center;
+    }
+
+    .assignment-card {
+        position: relative;
+        width: 100%;
+        margin-left: 1%;
+        max-width: 500px;
+        height: 300px;
+        perspective: 1000px;
+        margin-bottom: 20px;
+    }
+
+
+    /*contact me and footer*/
+    #contactMeStarter {
+        position: relative;
+        color: #F1F1F1;
+        font-family: "Inter", sans-serif;
+        font-weight: normal;
+        font-size: 30px;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        align-items: center;
+    }
+
+    #contactMeForm{
+        position: relative;
+        width: 70%;
+        height: 620px;
+        top: 40px;
+        left: 15%;
+        border-radius: 30px;
+    }
+
+    #name-Contactme{
+        /*textcolor*/
+        color: #F1F1F1;
+        font-family: "Inter", sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        margin-top: 20px;
+        width: 90%;
+        margin-left: 5%;
+        height: 60px;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+    #email-Contactme{
+        color: #F1F1F1;
+        font-family: "Inter", sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        margin-top: 20px;
+        width: 90%;
+        margin-left: 5%;
+        height: 60px;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+    #contactMeForm textarea {
+        color: #F1F1F1;
+        font-family: "Inter", sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        position: relative;
+        top: 20px;
+        width: 90%;
+        left: 5%;
+        height: 300px;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+
+    #contact-submit{
+        background-color: #F1F1F1;
+        color: #03000F;
+        font-family: "Inter", sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        margin-top: 20px;
+        width: 50%;
+        margin-left: 25%;
+        padding: 10px 20px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    footer{
+        width: 108% !important;
+        margin-top: 100px;
+        background: #F1F1F1;
+        padding: 1.5rem 10%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    footer p{
+        font-family: "Inter", sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        background-color: transparent;
+        color: #03000F;
+    }
+
+    footer a{
+        display: inline-flex;
+        justify-content: center;
+        /*color: var(--bg-color);*/
+        /*background: var(--hover-color);*/
+        padding: .6rem;
+        border-radius: 5px;
+    }
+
+}
+
+@media  all and (max-width: 868px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    header {
+        position: fixed;
+        top: 0;
+        z-index: 1000;
+        border-bottom: 1px solid transparent;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 120%;
+        padding: 20px 20px;
+    }
+
+    header.sticky {
+        background: whitesmoke;
+        border-bottom: 1px solid whitesmoke;
+        padding: 12px 10%;
+    }
+
+    .logo{
+        font-size: 26px;
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+
+    .logo a {
+        text-decoration: none;
+        color: #8CED05;
+    }
+
+    span {
+        color: white;
+    }
+
+    .navList {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    #icon {
+        font-size: 2.5rem;
+        margin-left: 40px;
+        cursor: pointer;
+    }
+
+    .hamburger {
+        display: none;
+        font-size: 2rem;
+        cursor: pointer;
+        color: #8CED05;
+    }
+
+    .navList a {
+        display: inline-block;
+        color: whitesmoke;
+        font-weight: 500;
+        padding: 10px 10px;
+        font-size: 1.1rem;
+        animation: slideAnimation 1s ease forwards;
+        opacity: 0;
+    }
+
+    #middleLineHero{
+        position: absolute;
+        top: 59%;
+
+        width: 108.2%;
+        height: 2px;
+        background-color: #8CED05;
+    }
+
+
+    /*<!--hero section-->*/
+    #HeroStarter {
+        position: relative;
+        font-family: "Inter", sans-serif;
+        font-size: 68px;
+        color: #8CED05;
+        margin-top: 16%;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        display: inline-block;
+        width: 100%;
+        height: 200px;
+        overflow: hidden;
+        white-space: nowrap;
+        box-sizing: border-box;
+        animation: typing 7s ease-in-out infinite;
+    }
+
+    @keyframes typing {
+        from {
+            width: 0;
+        }
+        to {
+            width: 100%;
+        }
+    }
+
+    #HeroPara{
+        position: relative;
+        font-family: "Inter", sans-serif;
+        font-size: 25px;
+        font-weight: bold;
+        color: #F1F1F1;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        margin-top: 1%;
+    }
+
+    #HeroPara2{
+        display: none;
+    }
+
+    #HeroPara3{
+        display: none ;
+    }
+
+    #HeroPicture {
+        display:none;
+        left: 34%;
+        top: 25%;
+        width: 340px;
+        height: 340px;
+        border: 5px solid #8CED05;
+        position: absolute;
+        border-radius: 50%;
+        overflow: hidden;
+        animation: subtleHeartbeat 10s infinite;
+    }
+
+    #middleLineHero{
+        position: absolute;
+        top: 59%;
+        width: 1000px;
+        height: 2px;
+        background-color: #8CED05;
+    }
+
+    #aboutStarter {
+        position: relative;
+        color: #8CED05;
+        font-family: "Inter", sans-serif;
+        font-weight: normal;
+        font-size: 27px;
+        margin-top: 250px;
+        margin-left: 40%;
+    }
+
+    @keyframes shake {
+        0% { transform: translateX(0); }
+        25% { transform: translateX(-5px); }
+        50% { transform: translateX(5px); }
+        75% { transform: translateX(-5px); }
+        100% { transform: translateX(0); }
+    }
+
+    #aboutPicture {
+        margin-top: 80px;
+        margin-left: 100px;
+        border-radius: 0px 5px 0px 5px;
+        width: 300px;
+        height: 400px;
+        border: 5px solid #8CED05;
+        box-shadow: 0 0 10px #413e3e;
+        overflow: hidden;
+    }
+
+    #aboutPicture img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    #aboutParagraph{
+        position: absolute;
+        font-family: "Inter", sans-serif;
+        color: #F1F1F1;
+        font-size: 20px;
+        letter-spacing: 1px;
+        width: 45% ;
+        margin-top: -400px;
+        margin-left: 420px;
+    }
+
+    #skillsStarter {
+        position: relative;
+        color: #F1F1F1;
+        font-family: "Inter", sans-serif;
+        font-weight: normal;
+        font-size: 30px;
+        margin-top: 10px;
+        margin-left: 240px;
+        margin-right: auto;
+        text-align: center;
+        width: fit-content;
+        align-items: center;
+    }
+
+    .uniNameEdu{
+        position: relative;
+        color: #8CED05;
+        font-family: "Inter", sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        margin-top: 80px;
+        margin-left: 18px;
+    }
+
+    .uniMajorCat{
+        color: #F1F1F1;
+    }
+
+    .uniMajorEdu{
+        position: absolute;
+        color: #8CED05;
+        font-family: "Inter", sans-serif;
+        font-weight: bold;
+        font-size: 15px;
+        margin-top: 20px;
+        margin-left: 18px;
+    }
+
+    .uniDescEdu{
+        position: absolute;
+        color: #F1F1F1;
+        font-family: "Inter", sans-serif;
+        font-weight: normal;
+        font-size: 13px;
+        margin-top: 60px;
+        margin-left: 18px;
+        letter-spacing: 1px;
+
+    }
+}
+
+@media (max-width: 768px) {
+    .gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media  all and (max-width:768px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    header {
+        position: fixed;
+        top: 0;
+        z-index: 1000;
+        border-bottom: 1px solid transparent;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 20px 60px;
+    }
+
+    .navList {
+        flex-grow: 1;
+        display: flex;
+        justify-content: center;
+        padding-left: 10px;
+    }
+
+    .logo {
+        flex-grow: 0;
+        margin-right: auto;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .navList a {
+        display: inline-block;
+        color: whitesmoke;
+        font-weight: 500;
+        padding: 6px 10px;
+        font-size: 0.7rem ;
+        animation: slideAnimation 1s ease forwards;
+        opacity: 0;
+    }
+
+
+    #middleLineHero{
+        position: absolute;
+        top: 59%;
+
+        width: 108.2%;
+        height: 2px;
+        background-color: #8CED05;
+    }
+
+    /*<!--hero section-->*/
+    #HeroStarter {
+        position: relative;
+        font-family: "Inter", sans-serif;
+        font-size: 70px;
+        color: #8CED05;
+        margin-top: 30%;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        display: inline-block;
+        width: 100%;
+        height: 200px;
+        overflow: hidden;
+        white-space: nowrap;
+        box-sizing: border-box;
+        animation: typing 7s ease-in-out infinite;
+    }
+
+    @keyframes typing {
+        from {
+            width: 0;
+        }
+        to {
+            width: 100%;
+        }
+    }
+
+
+
+
+    #HeroPara{
+        position: relative;
+        font-family: "Inter", sans-serif;
+        font-size: 25px;
+        font-weight: bold;
+        color: #F1F1F1;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        margin-bottom: 20%;
+    }
+    #HeroPara2{
+        display: none;
+    }
+
+    #HeroPara3{
+        display: none ;
+    }
+
+    #HeroPicture {
+        display: none;
+        left: 34%;
+        top: 35% !important;
+        width: 280px !important;
+        height: 280px !important;
+        border: 5px solid #8CED05;
+        position: absolute;
+        border-radius: 50%;
+        overflow: hidden;
+        animation: subtleHeartbeat 10s infinite;
+    }
+
+    /*about section*/
+    #aboutStarter {
+        position: relative;
+        color: #8CED05;
+        font-family: "Inter", sans-serif;
+        font-weight: normal;
+        font-size: 27px;
+        margin-top: 100px;
+        margin-left: 40%;
+    }
+
+    @keyframes shake {
+        0% { transform: translateX(0); }
+        25% { transform: translateX(-5px); }
+        50% { transform: translateX(5px); }
+        75% { transform: translateX(-5px); }
+        100% { transform: translateX(0); }
+    }
+
+    #aboutPicture {
+        margin-top: 80px;
+        margin-left: 100px;
+        border-radius: 0px 5px 0px 5px;
+        width: 300px;
+        height: 400px;
+        border: 5px solid #8CED05;
+        box-shadow: 0 0 10px #413e3e;
+        overflow: hidden;
+    }
+
+    #aboutPicture img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    #aboutParagraph{
+        position: absolute;
+        font-family: "Inter", sans-serif;
+        color: #F1F1F1;
+        font-size: 20px;
+        letter-spacing: 1px;
+        width: 45% ;
+        margin-top: -400px;
+        margin-left: 420px;
+    }
+
+    /*skill section header*/
+    /*/education starter/*/
+
+    #educationStarter {
+        position: relative;
+        color: #8CED05;
+        font-family: "Inter", sans-serif;
+        font-weight: normal;
+        font-size: 24px;
+        width: 100%;
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        align-items: center;
+    }
+
+    #educationStarterDown{
+        position: relative;
+        color: #F1F1F1;
+        font-family: "Roboto", sans-serif !important;
+        font-size: 18px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+
+    .EducationContainer {
+        position: relative;
+        color: #F1F1F1;
+        border: 2px solid #413e3e;
+        width: 30% !important;
+        height: 400px;
+        border-radius: 10px 0px 10px 0px;
+        margin-top: 5%;
+        margin-left: 2.5%;
+        transition: transform 1s ease, border-color 0.3s ease;
+    }
+
+
+    #projectStarter{
+        position: relative;
+        font-family: "Inter", sans-serif;
+        font-size: 30px;
+        color: #8CED05;
+        margin-top: 8%;
+        left: 32%;
+    }
+
+
+    .uniNameEdu{
+        position: relative;
+        color: #8CED05;
+        font-family: "Inter", sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        margin-top: 80px;
+        margin-left: 18px;
+    }
+
+    .uniMajorCat{
+        color: #F1F1F1;
+    }
+
+    .uniMajorEdu{
+        position: absolute;
+        color: #8CED05;
+        font-family: "Inter", sans-serif;
+        font-weight: bold;
+        font-size: 15px;
+        margin-top: 20px;
+        margin-left: 18px;
+    }
+
+    .uniDescEdu{
+        position: absolute;
+        color: #F1F1F1;
+        font-family: "Inter", sans-serif;
+        font-weight: normal;
+        font-size: 13px;
+        margin-top: 60px;
+        margin-left: 18px;
+        letter-spacing: 1px;
+
+    }
+
+    #skillsStarter{
+        position: relative;
+        color: #F1F1F1;
+        width: 100%;
+        font-family: "Inter", sans-serif;
+        font-weight: normal;
+        font-size: 30px;
+        margin-top: 10px;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        align-items: center;
+    }
+
+    /*assignment section*/
+    #assignmentStarter {
+        color: #F1F1F1;
+        font-family: "Inter", sans-serif;
+        font-size: 27px;
+        margin-left: 100px;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .assignments-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        padding: 20px;
+        justify-items: center;
+    }
+
+    .assignment-card {
+        position: relative;
+        width: 100%;
+        margin-left: 1%;
+        max-width: 500px;
+        height: 300px;
+        perspective: 1000px;
+        margin-bottom: 20px;
+    }
+
+
+    /*contact me and footer*/
+    #contactMeStarter {
+        position: relative;
+        color: #F1F1F1;
+        font-family: "Inter", sans-serif;
+        font-weight: normal;
+        font-size: 30px;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        align-items: center;
+    }
+
+    #contactMeForm{
+        position: relative;
+        width: 70%;
+        height: 620px;
+        top: 70px;
+        left: 18%;
+        border-radius: 30px;
+    }
+
+    #name-Contactme{
+        /*textcolor*/
+        color: #F1F1F1;
+        font-family: "Inter", sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        margin-top: 20px;
+        width: 90%;
+        margin-left: 5%;
+        height: 60px;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+    #email-Contactme{
+        color: #F1F1F1;
+        font-family: "Inter", sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        margin-top: 20px;
+        width: 90%;
+        margin-left: 5%;
+        height: 60px;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+    #contactMeForm textarea {
+        color: #F1F1F1;
+        font-family: "Inter", sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        position: relative;
+        top: 20px;
+        width: 90%;
+        left: 5%;
+        height: 300px;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+
+    #contact-submit{
+        background-color: #F1F1F1;
+        color: #03000F;
+        font-family: "Inter", sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        margin-top: 20px;
+        width: 50%;
+        margin-left: 25%;
+        padding: 10px 20px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    footer{
+        width: 108% !important;
+        margin-top: 100px;
+        background: #F1F1F1;
+        padding: 1.5rem 10%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    footer p{
+        font-family: "Inter", sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        background-color: transparent;
+        color: #03000F;
+    }
+
+    footer a{
+        display: inline-flex;
+        justify-content: center;
+        /*color: var(--bg-color);*/
+        /*background: var(--hover-color);*/
+        padding: .6rem;
+        border-radius: 5px;
+    }
+
+
+}
+
+@media all and (max-width: 745px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    header {
+        position: fixed;
+        top: 0;
+        z-index: 1000;
+        border-bottom: 1px solid transparent;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 120%;
+        padding: 20px 20px;
+    }
+
+    header.sticky {
+        background: whitesmoke;
+        border-bottom: 1px solid whitesmoke;
+        padding: 12px 10%;
+    }
+
+    .logo{
+        font-size: 26px;
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+
+    .logo a {
+        text-decoration: none;
+        color: #8CED05;
+    }
+
+    span {
+        color: white;
+    }
+
+    .navList {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    #icon {
+        font-size: 2.5rem;
+        margin-left: 40px;
+        cursor: pointer;
+    }
+
+    .hamburger {
+        display: none;
+        font-size: 2rem;
+        cursor: pointer;
+        color: #8CED05;
+    }
+
+    .navList a {
+        display: inline-block;
+        color: whitesmoke;
+        font-weight: 500;
+        padding: 10px 10px;
+        font-size: 1.0rem;
+        animation: slideAnimation 1s ease forwards;
+        opacity: 0;
+    }
+
+    #middleLineHero{
+        position: absolute;
+        top: 59%;
+
+        width: 108.2%;
+        height: 2px;
+        background-color: #8CED05;
+    }
+
+
+    /*<!--hero section-->*/
+    #HeroStarter {
+        position: relative;
+        font-family: "Inter", sans-serif;
+        font-size: 70px;
+        color: #8CED05;
+        margin-top: 16%;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        display: inline-block;
+        width: 100%;
+        height: 200px;
+        overflow: hidden;
+        white-space: nowrap;
+        box-sizing: border-box;
+        animation: typing 7s ease-in-out infinite;
+    }
+
+    @keyframes typing {
+        from {
+            width: 0;
+        }
+        to {
+            width: 100%;
+        }
+    }
+
+    #HeroPara{
+        position: relative;
+        font-family: "Inter", sans-serif;
+        font-size: 25px;
+        font-weight: bold;
+        color: #F1F1F1;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        margin-top: 1%;
+    }
+
+    #HeroPara2{
+        display: none;
+    }
+
+    #HeroPara3{
+        display: none ;
+    }
+
+    #HeroPicture {
+        left: 34%;
+        top: 30%;
+        width: 300px;
+        height: 300px;
+        border: 5px solid #8CED05;
+        position: absolute;
+        border-radius: 50%;
+        overflow: hidden;
+        animation: subtleHeartbeat 10s infinite;
+    }
+
+    #middleLineHero{
+        position: absolute;
+        top: 59%;
+        width: 1000px;
+        height: 2px;
+        background-color: #8CED05;
+    }
+
+    #aboutStarter {
+        position: relative;
+        color: #8CED05;
+        font-family: "Inter", sans-serif;
+        font-weight: normal;
+        font-size: 27px;
+        margin-top: 250px;
+        margin-left: 38%;
+    }
+
+    @keyframes shake {
+        0% { transform: translateX(0); }
+        25% { transform: translateX(-5px); }
+        50% { transform: translateX(5px); }
+        75% { transform: translateX(-5px); }
+        100% { transform: translateX(0); }
+    }
+
+    #aboutPicture {
+        margin-top: 80px;
+        margin-left: 70px;
+        border-radius: 0px 5px 0px 5px;
+        width: 300px;
+        height: 400px;
+        border: 5px solid #8CED05;
+        box-shadow: 0 0 10px #413e3e;
+        overflow: hidden;
+    }
+
+    #aboutPicture img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    #aboutParagraph{
+        position: absolute;
+        font-family: "Inter", sans-serif;
+        color: #F1F1F1;
+        font-size: 20px;
+        letter-spacing: 1px;
+        width: 45% ;
+        margin-top: -400px;
+        margin-left: 380px;
+    }
+
+    #skillsStarter {
+        position: relative;
+        color: #F1F1F1;
+        font-family: "Inter", sans-serif;
+        font-weight: normal;
+        font-size: 30px;
+        margin-top: 10px;
+        margin-left: 170px;
+        margin-right: auto;
+        text-align: center;
+        width: fit-content;
+        align-items: center;
+    }
+
+    .uniNameEdu{
+        position: relative;
+        color: #8CED05;
+        font-family: "Inter", sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        margin-top: 80px;
+        margin-left: 18px;
+    }
+
+    .uniMajorCat{
+        color: #F1F1F1;
+    }
+
+    .uniMajorEdu{
+        position: absolute;
+        color: #8CED05;
+        font-family: "Inter", sans-serif;
+        font-weight: bold;
+        font-size: 15px;
+        margin-top: 20px;
+        margin-left: 18px;
+    }
+
+    .uniDescEdu{
+        position: absolute;
+        color: #F1F1F1;
+        font-family: "Inter", sans-serif;
+        font-weight: normal;
+        font-size: 12px;
+        margin-top: 60px;
+        margin-left: 18px;
+        letter-spacing: 1px;
+
+    }
+}
+
+/*@media (max-width: 480px) {*/
+/*    .gallery-grid {*/
+/*        width: 100%;*/
+/*        grid-template-columns: 1fr 1fr;*/
+/*        grid-gap: 10px;*/
+/*    }*/
+/*}*/
+
+@media (max-width: 480px) {
+    .gallery-grid {
+        width: 100%;
+        grid-template-columns: 15rem 15rem;
+        grid-gap: 10px;
+        justify-content: center;
+        padding-right: 35px;
+    }
+
+}
+
+@media all and (max-width: 453px ) {
+    body {
+        overflow-x: visible;
+    }
+
+    #hamburger {
+        display: block;
+    }
+
+
+    .navList {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 50px;
+        padding-right: 150px!important;
+        left: 0;
+        width: 100%;
+        background-color: #0b0326;
+        z-index: 999;
+    }
+
+
+    .navList.active {
+        display: flex;
+    }
+
+
+    .navList a {
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+    }
+
+
+    header {
+        padding: 20px;
+    }
+
+    .logo {
+        font-size: 35px;
+        padding-left: 26rem;
+    }
+
+    #icon {
+        display: none;
+    }
+
+    #HeroStarter {
+        position: relative;
+        font-family: "Inter", sans-serif;
+        font-size: 42px;
+        color: #8CED05;
+        margin-top: 30%;
+        left: 70%;
+        transform: translateX(-50%);
+        text-align: center;
+        display: inline-block;
+        width: 100%;
+        height: 200px;
+        overflow: hidden;
+        white-space: nowrap;
+        box-sizing: border-box;
+        animation: typing 7s ease-in-out infinite;
+    }
+
+    @keyframes typing {
+        from {
+            width: 0;
+        }
+        to {
+            width: 100%;
+        }
+    }
+
+    #HeroPara{
+        position: relative;
+        font-family: "Inter", sans-serif;
+        font-size: 25px;
+        font-weight: bold;
+        color: #F1F1F1;
+        width: 80%;
+        margin-left: 120px !important;
+        margin-right: auto !important;
+        text-align: center !important;
+        margin-bottom: 10% !important;
+    }
+    #HeroPara2{
+        display: none;
+    }
+
+    #HeroPara3{
+        display: none ;
+    }
+
+    #HeroPicture {
+        display: none;
+    }
+
+    #middleLineHero{
+        display: none;
+    }
+
+
+    #aboutStarter {
+        position: relative;
+        color: #8CED05;
+        font-family: "Inter", sans-serif;
+        font-weight: normal;
+        font-size: 27px;
+        margin-top: 250px;
+        margin-left: 200px;
+        margin-right: auto;
+
+    }
+
+
+    @keyframes shake {
+        0% { transform: translateX(0); }
+        25% { transform: translateX(-5px); }
+        50% { transform: translateX(5px); }
+        75% { transform: translateX(-5px); }
+        100% { transform: translateX(0); }
+    }
+
+    #aboutPicture {
+        margin-top: 80px;
+        margin-left: 90px;
+        border-radius: 0px 5px 0px 5px;
+        width: 500px;
+        height: 600px;
+        border: 5px solid #8CED05;
+        box-shadow: 0 0 10px #413e3e;
+        overflow: hidden;
+    }
+
+    #aboutPicture img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    #aboutParagraph{
+        position: absolute;
+        font-family: "Inter", sans-serif;
+        color: #F1F1F1;
+        font-size: 20px;
+        letter-spacing: 1px;
+        width: 100% ;
+        margin-top: 30px;
+        margin-left: 90px;
+    }
+
+    #educationStarter {
+        position: relative;
+        color: #8CED05;
+        font-family: "Inter", sans-serif;
+        font-weight: normal;
+        font-size: 24px;
+        width: 100%;
+        margin-top: 400px;
+        margin-left: 90px;
+        margin-right: auto;
+        text-align: center;
+        align-items: center;
+    }
+
+    #educationStarterDown{
+        position: relative;
+        color: #F1F1F1;
+        font-family: "Roboto", sans-serif !important;
+        font-size: 12px;
+        margin-left: 40%;
+        margin-right: auto;
+        text-align: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+
+    .EducationContainer {
+        width: 100% !important;
+        margin-left: 200px;
+        margin-right: 0;
+        margin-top: 20px;
+        padding: 10px;
+    }
+
+    #containerEdu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .uniNameEdu{
+        position: relative;
+        color: #8CED05;
+        font-family: "Inter", sans-serif;
+        font-weight: bold;
+        font-size: 27px;
+        margin-top: 50px;
+        margin-left: 18px;
+    }
+
+    .uniMajorCat{
+        color: #F1F1F1;
+    }
+
+    .uniMajorEdu{
+        position: absolute;
+        color: #8CED05;
+        font-family: "Inter", sans-serif;
+        font-weight: bold;
+        font-size: 19px;
+        margin-top: 20px;
+        margin-left: 18px;
+    }
+
+    .uniDescEdu{
+        position: absolute;
+        color: #F1F1F1;
+        font-family: "Inter", sans-serif;
+        font-weight: normal;
+        font-size: 16px;
+        margin-top: 60px;
+        margin-left: 18px;
+        letter-spacing: 1px;
+
+    }
+
+    #skillsStarter{
+        width: 100%;
+        position: relative;
+        color: #F1F1F1;
+        font-family: "Inter", sans-serif;
+        font-weight: normal;
+        font-size: 30px;
+        margin-top: 10px;
+        margin-left: 90px;
+        margin-right: auto;
+        text-align: center;
+        align-items: center;
+    }
+
+    #skills-section {
+        color: #F1F1F1;
+        font-family: "Inter", sans-serif;
+        font-size: 30px;
+        margin-top: 2%;
+        margin-left: 10%;
+        width: 80%;
+        padding: 50px 20px;
+        background-color: transparent;
+    }
+
+    .skills-container {
+        margin-left: 150px;
+        margin-top: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .skill-item:nth-child(2){
+        margin-top: 30px;
+    }
+    .skill-item:nth-child(3){
+        margin-top: 30px;
+    }
+    .skill-item:nth-child(4){
+        margin-top: 30px;
+    }
+
+    .slider-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 100px;
+        margin-left: 130px;
+    }
+
+    #assignmentStarter {
+        color: #F1F1F1;
+        font-family: "Inter", sans-serif;
+        font-size: 30px;
+        text-align: center;
+        margin-top: 80px;
+        width: 100%;
+        margin-left: 90px !important;
+    }
+    .assignments-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px;
+        padding-top: 40px;
+        justify-items: center;
+    }
+    .assignment-card {
+        margin-left: 160px;
+        position: relative;
+        width: 100%;
+        max-width: 500px;
+        height: 300px;
+        perspective: 1000px;
+        margin-bottom: 20px;
+    }
+
+    #galleryStarter {
+        font-family: "Inter", sans-serif;
+        font-size: 30px;
+        text-align: center;
+        margin-top: 80px;
+        width: 100%;
+        margin-left: 90px !important;
+    }
+
+    .gallery-grid{
+        margin-top: 80px;
+        margin-left: 90px !important;
+    }
+
+    #contactMeStarter {
+        position: relative;
+        color: #F1F1F1;
+        font-family: "Inter", sans-serif;
+        font-weight: normal;
+        font-size: 30px;
+        margin-top: 50px;
+        margin-left: 150px;
+        align-items: center;
+    }
+
+    #contactMeForm{
+        position: relative;
+        width: 100%;
+        height: 620px;
+        top: 70px;
+        left: 15%;
+        border-radius: 30px;
+    }
+    #contact-submit{
+        background-color: #F1F1F1;
+        color: #03000F;
+        font-family: "Inter", sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        margin-top: 20px;
+        width: 60%;
+        margin-left: 20%;
+        padding: 10px 20px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+    footer{
+        width:134%!important;
+        margin-top: 100px;
+        background: #F1F1F1;
+        padding: 1.5rem 10%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    footer p{
+        font-family: "Inter", sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        background-color: transparent;
+        color: #03000F;
+    }
+
+    footer a{
+        display: inline-flex;
+        justify-content: center;
+        padding: .6rem;
+        border-radius: 5px;
+    }
+
+
+
+}
+
+@media all and (max-width: 376px) {
+    #HeroStarter {
+        position: relative;
+        font-family: "Inter", sans-serif;
+        font-size: 38px !important;
+        color: #8CED05;
+        margin-top: 50%;
+        left: 80%;
+        transform: translateX(-50%);
+        text-align: center;
+        display: inline-block;
+        width: 100%;
+        height: 200px;
+        overflow: hidden;
+        white-space: nowrap;
+        box-sizing: border-box;
+        animation: typing 7s ease-in-out infinite;
+    }
+
+    @keyframes typing {
+        from {
+            width: 0;
+        }
+        to {
+            width: 100%;
+        }
+    }
+
+    #HeroPara{
+        position: absolute;
+        font-family: "Inter", sans-serif;
+        font-size: 25px;
+        font-weight: bold;
+        color: #F1F1F1;
+        width: 100%;
+        left: auto;
+        right: auto;
+        text-align: center;
+        bottom: 20% !important;
+    }
+    #aboutStarter {
+        position: relative;
+        color: #8CED05;
+        font-family: "Inter", sans-serif;
+        font-weight: normal;
+        font-size: 27px;
+        width: 100%;
+        margin-top: 250px;
+        margin-left: 200px;
+        margin-right: auto;
+
+    }
+    #aboutPicture{
+        margin-left: 120px;
+    }
+    #aboutParagraph{
+        margin-left: 120px;
+    }
+    #educationStarter {
+        position: relative;
+        color: #8CED05;
+        font-family: "Inter", sans-serif;
+        font-weight: normal;
+        font-size: 24px;
+        width: 100%;
+        margin-top: 460px;
+        margin-left: 90px;
+        margin-right: auto;
+        text-align: center;
+        align-items: center;
+    }
+    #education{
+        margin-left: 15px;
+    }
+    #skillsStarter{
+        position: relative;
+        color: #F1F1F1;
+        font-family: "Inter", sans-serif;
+        font-weight: normal;
+        font-size: 30px;
+        margin-top: 10px;
+        margin-left: 60px;
+        align-items: center;
+    }
+    .circle {
+        width: 170px;
+        height: 170px;
+        background-color: transparent;
+        border-radius: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        font-family: Arial, sans-serif;
+        font-size: 1.8rem;
+        color: #333;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .circle span {
+        background-color: transparent;
+        font-size: 3rem;
+        font-weight: bold;
+    }
+    .circle p {
+        background-color: transparent;
+        margin-top: 5px;
+        font-size: 1.2rem;
+    }
+    .skill-content {
+        margin-top: 30px;
+    }
+    .skill-content h4 {
+        font-size: 1.3rem;
+        color: #F1F1F1;
+        background-color: transparent;
+    }
+    .skill-content p {
+        font-size: 1rem;
+        color: #666;
+        max-width: 220px;
+    }
+    .skill-content i {
+        font-size: 3rem;
+        color: #333;
+        margin-top: 10px;
+    }
+    #skills-section {
+        color: #F1F1F1;
+        font-family: "Inter", sans-serif;
+        font-size: 32px;
+        margin-top: 2%;
+        margin-left: 10%;
+        width: 100%;
+        padding: 50px 20px;
+        background-color: transparent;
+    }
+    .skills-container {
+        margin-left: 100px;
+        margin-top: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+    .skill-item:nth-child(2),
+    .skill-item:nth-child(3),
+    .skill-item:nth-child(4) {
+        margin-top: 40px;
+    }
+    .slider-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 100px;
+        margin-left: 130px;
+    }
+    #assignmentStarter {
+        color: #F1F1F1;
+        font-family: "Inter", sans-serif;
+        font-size: 30px;
+        text-align: center;
+        margin-top: 80px;
+        width: 100%;
+        margin-left: 90px !important;
+    }
+    .assignments-container  {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+        width: 100%;
+        margin: 0 auto;
+        gap: 15px;
+        padding-top: 40px;
+
+    }
+    .assignment-card {
+        margin-left: 190px;
+        position: relative;
+        width: 100%;
+        max-width: 500px;
+        height: 300px;
+        perspective: 1000px;
+        margin-bottom: 20px;
+    }
+    #contactMeStarter {
+        position: relative;
+        color: #F1F1F1;
+        font-family: "Inter", sans-serif;
+        font-weight: normal;
+        font-size: 30px;
+        margin-top: 50px;
+        margin-left: 100px;
+        align-items: center;
+        width:100%;
+    }
+    #contactMeForm{
+        position: relative;
+        width: 100%;
+        height: 620px;
+        top: 70px;
+        left: 25%;
+        border-radius: 30px;
+    }
+    #contact-submit{
+        background-color: #F1F1F1;
+        color: #03000F;
+        font-family: "Inter", sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        margin-top: 20px;
+        width: 60%;
+        margin-left: 20%;
+        padding: 10px 20px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+    footer{
+        width:153% !important;
+        margin-top: 100px;
+        background: #F1F1F1;
+        padding: 1.5rem 10%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+}
+
+/* Responsive Design */
+
+
+
+

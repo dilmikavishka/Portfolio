@@ -2,30 +2,33 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/normalize.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Dilmi.me</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#333">
     <meta name="description" content="Portfolio">
     <meta name="keywords" content="Portfolio, dilmi, developer">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
+    <link rel="stylesheet" href="./css/Style.css">
+    <link rel="stylesheet" href="./css/Media.css">
+    <link rel="stylesheet" href="./css/Mode.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
-<div id="animated-line"></div>
 <header>
-    <div class="hamburger" id="hamburger">&#9776;</div>
+    <i class="fas fa-bars hamburger" id="hamburger"></i>
     <div class="logo"><a href="#"><span>D</span>ilmi</a></div>
     <ul class="navList" id="navList">
-        <li><a href="#hero" style="--i:1;">Home</a></li>
-        <li><a href="#about" style="--i:1.5;">About me</a></li>
-        <li><a href="#education" style="--i:2;">Education</a></li>
-        <li><a href="#" style="--i:2.5;">Skills</a></li>
-        <li><a href="#" style="--i:3;">Project</a></li>
-        <li><a href="#assignments" style="--i:3.5;">Assignment</a></li>
-        <li><a href="#contact" style="--i:4;">Contact me</a></li>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About me</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills-section">Skills</a></li>
+        <li><a href="#projects">Project</a></li>
+        <li><a href="#assignments">Assignment</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact me</a></li>
         <i class='bx bxs-moon' id="icon"></i>
     </ul>
 </header>
@@ -35,8 +38,8 @@
     <div id="middleLineHero"></div>
     <h2 id="HeroStarter">Full stack <span style="color: #F1F1F1">D</span>eveloper</h2>
     <p id="HeroPara">"Freelance Developer specializing in StandAlone,Web, Mobile, Design."</p>
-    <p id="HeroPara3">specializing in StandAlone,Web, Mobile, Design.</p>
-    <p id="HeroPara2">Freelance Developer</p>
+    <p id="HeroPara3">Specializing in StandAlone,Web, Mobile, Design.</p>
+    <p id="HeroPara2">Ux Ui Developer</p>
     <div id="HeroPicture">
         <img src="assets/image/pic1.jpg" id="imagefitHero">
     </div>
@@ -48,7 +51,7 @@
         <h2>About <span id="bold-text">Me</span></h2>
     </div>
     <div id="aboutPicture">
-        <img src="assets/image/pic2.jpg" alt="About Picture">
+        <img src="assets/image/WhatsApp%20Image%202024-07-19%20at%2010.55%20copy.jpg" alt="About Picture">
     </div>
     <div id="aboutParagraph">
         <p>It's me,<span style="color: #8CED05"> Dilmi Kavishka</span>, and I am a dedicated
@@ -68,13 +71,14 @@
 <section id="education">
     <div id="educationStarter">
         <h2>
-            <span class="educationTopic">Past</span>
+            <span class="educationTopic" style="color: #8ced05">Past</span>
             <span class="bounce">Experience</span>
-            <span class="educationTopic">With</span>
+            <span class="educationTopic" style="color: #8ced05">With</span>
             <span class="bounce">Education</span>
         </h2>
     </div>
     <div id="educationStarterDown"><h2 style="font-weight: lighter">“Building on what I've learned”</h2></div>
+
 
     <div id="containerEdu">
         <div class="EducationContainer">
@@ -100,7 +104,183 @@
     </div>
 </section>
 
+<!--skills section-->
+<section id="skills-section">
+    <div id="skillsStarter">
+        <h2>My <span style="color: #8ced05">Skills</span></h2>
+    </div>
+    <div class="skills-container">
+        <!-- Skill 1 -->
+        <div class="skill-item">
+            <div class="circle">
+                <span>80%</span>
+                <p>HTML</p>
+            </div>
+            <div class="skill-content">
+                <h4>HTML</h4>
+                <p>Proficient in creating semantic, accessible, and SEO-friendly web layouts.</p>
+                <i class="fa-brands fa-html5 html"></i>
+            </div>
+        </div>
+
+        <!-- Skill 2 -->
+        <div class="skill-item">
+            <div class="circle">
+                <span>60%</span>
+                <p>CSS</p>
+            </div>
+            <div class="skill-content">
+                <h4>CSS</h4>
+                <p>Skilled in crafting responsive and visually appealing designs using CSS3, Flexbox, Grid, and media queries.</p>
+
+                <i class="fa-brands fa-css3-alt css"></i>
+            </div>
+        </div>
+
+        <!-- Skill 3 -->
+        <div class="skill-item">
+            <div class="circle">
+                <span>50%</span>
+                <p>JS</p>
+            </div>
+            <div class="skill-content">
+                <h4>JS</h4>
+                <p>Experienced in writing clean, efficient JavaScript code for dynamic web applications.</p>
+
+                <i class="fa-brands fa-js jvs"></i>
+            </div>
+        </div>
+
+        <!-- Skill 4 -->
+        <div class="skill-item">
+            <div class="circle">
+                <span>95%</span>
+                <p>JAVa</p>
+            </div>
+            <div class="skill-content">
+                <h4>Java</h4>
+                <p>Strong background in Java programming, especially in building secure, scalable applications.</p>
+                <i class="fa-brands fa-java java"></i>
+            </div>
+        </div>
+    </div>
+</section>
+
 <!--project section-->
+<section id="projects">
+    <div id="projectStarter">
+        <h2>Latest <span>Projects</span></h2>
+    </div>
+
+    <div class="slider-container">
+        <button class="slider-button prev">&lt;</button>
+        <div class="project-grid">
+            <!-- Project Cards (same as you have above) -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="assets/image/Screenshot%202024-07-21%20020853.png" alt="Project 1">
+                    <div class="project-description">
+                        <p>This is a cool project about web development using modern tech.</p>
+
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Project 1</h3>
+                    <p>Tech Stack: HTML, CSS, JavaScript <i class="icons-git fa-brands fa-github"></i></p>
+                </div>
+            </div>
+
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="assets/image/Screenshot%202024-07-21%20020853.png" alt="Project 1">
+                    <div class="project-description">
+                        <p>This is a cool project about web development using modern tech.</p>
+
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Project 1</h3>
+                    <p>Tech Stack: HTML, CSS, JavaScript <i class="icons-git fa-brands fa-github"></i></p>
+                </div>
+            </div>
+
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="assets/image/Screenshot%202024-07-21%20020853.png" alt="Project 1">
+                    <div class="project-description">
+                        <p>This is a cool project about web development using modern tech.</p>
+
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Project 1</h3>
+                    <p>Tech Stack: HTML, CSS, JavaScript <i class="icons-git fa-brands fa-github"></i></p>
+                </div>
+            </div>
+
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="assets/image/Screenshot%202024-07-21%20020853.png" alt="Project 1">
+                    <div class="project-description">
+                        <p>This is a cool project about web development using modern tech.</p>
+
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Project 1</h3>
+                    <p>Tech Stack: HTML, CSS, JavaScript <i class="icons-git fa-brands fa-github"></i></p>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="assets/image/Screenshot%202024-07-21%20020853.png" alt="Project 1">
+                    <div class="project-description">
+                        <p>This is a cool project about web development using modern tech.</p>
+
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Project 1</h3>
+                    <p>Tech Stack: HTML, CSS, JavaScript <i class="icons-git fa-brands fa-github"></i></p>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="assets/image/Screenshot%202024-07-21%20020853.png" alt="Project 1">
+                    <div class="project-description">
+                        <p>This is a cool project about web development using modern tech.</p>
+
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Project 1</h3>
+                    <p>Tech Stack: HTML, CSS, JavaScript <i class="icons-git fa-brands fa-github"></i></p>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="assets/image/Screenshot%202024-07-21%20020853.png" alt="Project 1">
+                    <div class="project-description">
+                        <p>This is a cool project about web development using modern tech.</p>
+
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Project 1</h3>
+                    <p>Tech Stack: HTML, CSS, JavaScript <i class="icons-git fa-brands fa-github"></i></p>
+                </div>
+            </div>
+            <!-- Repeat the above block for other cards -->
+        </div>
+
+        <!-- Slider navigation buttons -->
+
+        <button class="slider-button next">&gt;</button>
+    </div>
+</section>
 
 
 <!--assignment section-->
@@ -108,55 +288,154 @@
     <div id="assignmentStarter">
         <h2><span style="font-weight: normal">My</span> <span style="color: #8ced05">Assignments</span></h2>
     </div>
+
     <div class="assignments-container">
         <div class="assignment-card">
             <div class="card-inner">
                 <div class="card-front">
+                    <i class="fa fa-file-alt icon-assignment"></i>
                     <h3 class="Title-Assignment">Assignment 1</h3>
                 </div>
                 <div class="card-back">
                     <p class="Description-Assignment">Designing part of this portfolio website. Create the requirement Document, Site map, Wireframe and Mockup of this website.</p>
-                    <a href="https://github.com/dilmikavishka/Assignment-01.git" class="link-Assignment" target="_blank">View On Github</a>
+                    <a href="https://github.com/dilmikavishka/Assignment-01.git" class="link-Assignment" target="_blank">View On Glucon</a>
+                    <i class="fas fa-eye icon-back"></i>
                 </div>
             </div>
         </div>
+
         <div class="assignment-card">
             <div class="card-inner">
                 <div class="card-front">
+                    <i class="fa fa-file-alt icon-assignment"></i>
                     <h3 class="Title-Assignment">Assignment 2</h3>
                 </div>
                 <div class="card-back">
                     <p class="Description-Assignment">Build the structure of this portfolio website using HTML.</p>
                     <a href="https://github.com/dilmikavishka/My-Portfolio-Structure.git" class="link-Assignment" target="_blank">View On Github</a>
+                    <i class="fas fa-eye icon-back"></i>
                 </div>
             </div>
         </div>
+
         <div class="assignment-card">
             <div class="card-inner">
                 <div class="card-front">
+                    <i class="fa fa-file-alt icon-assignment"></i>
                     <h3 class="Title-Assignment">Assignment 3</h3>
                 </div>
                 <div class="card-back">
-                    <p class="Description-Assignment">The assignment that based on css styling and positioning. There are 6 cases in this assignment.</p>
-                    <a href="https://github.com/dilmikavishka/Assignment03.git" class="link-Assignment" target="_blank">View On Github</a>
+                    <p class="Description-Assignment">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum</p>
+                    <a href="assignments/assignment_03_cases.html" class="link-Assignment" target="_blank">View Cases</a>
+                    <i class="fas fa-eye icon-back"></i>
                 </div>
             </div>
         </div>
         <div class="assignment-card">
             <div class="card-inner">
                 <div class="card-front">
+                    <i class="fa fa-file-alt icon-assignment"></i>
                     <h3 class="Title-Assignment">Assignment 4</h3>
                 </div>
                 <div class="card-back">
-                    <p class="Description-Assignment">The assignment that based on css animation. There are 6 cases in this assignment.</p>
-                    <a href="https://github.com/dilmikavishka/assignment-04.git" class="link-Assignment" target="_blank">View On Github</a>
+
+                    <p class="Description-Assignment">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum</p>
+                    <a href="assignments/assignment_04_cases.html" class="link-Assignment" target="_blank">View Cases</a>
+                    <i class="fas fa-eye icon-back"></i>
                 </div>
             </div>
         </div>
+        <div class="assignment-card">
+            <div class="card-inner">
+                <div class="card-front">
+                    <i class="fa fa-file-alt icon-assignment"></i>
+                    <h3 class="Title-Assignment">Assignment 5</h3>
+                </div>
+                <div class="card-back">
+                    <p class="Description-Assignment">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum</p>
+                    <a href="#" class="link-Assignment" target="_blank">View On Github</a>
+                    <i class="fas fa-eye icon-back"></i>
+                </div>
+            </div>
+        </div>
+        <div class="assignment-card">
+            <div class="card-inner">
+                <div class="card-front">
+                    <i class="fa fa-file-alt icon-assignment"></i>
+                    <h3 class="Title-Assignment">Assignment 6</h3>
+                </div>
+                <div class="card-back">
+                    <p class="Description-Assignment">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum</p>
+                    <a href="#" class="link-Assignment" target="_blank">View On Github</a>
+                    <i class="fas fa-eye icon-back"></i>
+                </div>
+            </div>
+        </div>
+        <div class="assignment-card">
+            <div class="card-inner">
+                <div class="card-front">
+                    <i class="fa fa-file-alt icon-assignment"></i>
+                    <h3 class="Title-Assignment">Assignment 7</h3>
+                </div>
+                <div class="card-back">
+                    <p class="Description-Assignment">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum</p>
+                    <a href="#" class="link-Assignment" target="_blank">View On Github</a>
+                    <i class="fas fa-eye icon-back"></i>
+                </div>
+            </div>
+        </div>
+        <div class="assignment-card">
+            <div class="card-inner">
+                <div class="card-front">
+                    <i class="fa fa-file-alt icon-assignment"></i>
+                    <h3 class="Title-Assignment">Assignment 8</h3>
+                </div>
+                <div class="card-back">
+                    <p class="Description-Assignment">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum</p>
+                    <a href="assignments/assignment_8_cases.html" class="link-Assignment" target="_blank">View Cases</a>
+                    <i class="fas fa-eye icon-back"></i>
+                </div>
+            </div>
+        </div>
+
     </div>
 </section>
 
+<section id="gallery">
+    <div id="galleryStarter">
+        <h2><span style="color: #F1F1F1">Photo</span> Booth</h2>
+    </div>
 
+    <div class="gallery-grid">
+        <div class="gallery-item">
+            <img src="assets/image/pic2.jpg" alt="Gallery Image 1">
+        </div>
+        <div class="gallery-item wide">
+            <img src="assets/image/gr2.jpg" alt="Gallery Image 2">
+        </div>
+        <div class="gallery-item tall">
+            <img src="assets/image/WhatsApp%20Image%202024-07-19%20at%2010.55%20copy.jpg" alt="Gallery Image 3">
+        </div>
+        <div class="gallery-item">
+            <img src="assets/image/4.jpg" alt="Gallery Image 4">
+        </div>
+        <div class="gallery-item tall">
+            <img src="assets/image/gr5.jpg" alt="Gallery Image 3">
+        </div>
+        <div class="gallery-item tall">
+            <img src="assets/image/gr3.jpg" alt="Gallery Image 6">
+        </div>
+        <div class="gallery-item wide">
+            <img src="assets/image/5.jpg" alt="Gallery Image 5">
+        </div>
+        <div class="gallery-item">
+            <img src="assets/image/gr1.jpg" alt="Gallery Image 7">
+        </div>
+        <div class="gallery-item wide">
+            <img src="assets/image/pic1.jpg" alt="Gallery Image 8">
+        </div>
+    </div>
+</section>
 
 <!--contact me-->
 <section id="contact">
@@ -179,22 +458,53 @@
 </footer>
 
 
-<!-- JavaScript -->
-<!--AOS Animation-->
-
-<!--JavaScript &ndash;&gt;-->
 <script>
-    const hamburger = document.getElementById('hamburger');
-    const navList = document.getElementById('navList');
-    const body = document.body;
+    document.getElementById('hamburger').addEventListener('click', function() {
+        document.getElementById('navList').classList.toggle('active');
+    });
 
-    hamburger.addEventListener('click', () => {
-        navList.classList.toggle('active');
-        body.classList.toggle('blur-background');
+    const prevButton = document.querySelector('.prev');
+    const nextButton = document.querySelector('.next');
+    const projectGrid = document.querySelector('.project-grid');
+    const cards = document.querySelectorAll('.project-card');
+
+    let currentIndex = 0;
+    const cardWidth = cards[0].offsetWidth + 20;
+
+
+    nextButton.addEventListener('click', () => {
+        if (currentIndex < cards.length - 1) {
+            currentIndex++;
+            projectGrid.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
+        }
+    });
+
+
+    prevButton.addEventListener('click', () => {
+        if (currentIndex > 0) {
+            currentIndex--;
+            projectGrid.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
+        }
+    });
+
+
+    const galleryItems = document.querySelectorAll('.gallery-item img');
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightbox-img');
+    const closeBtn = document.querySelector('.close');
+
+    galleryItems.forEach(item => {
+        item.addEventListener('click', () => {
+            lightbox.style.display = 'flex';
+            lightboxImg.src = item.src;
+        });
+    });
+
+    closeBtn.addEventListener('click', () => {
+        lightbox.style.display = 'none';
     });
 
 </script>
-
 <script>
     AOS.init();
 </script>
