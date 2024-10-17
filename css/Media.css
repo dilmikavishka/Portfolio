@@ -435,3 +435,81 @@
     }
 
 }
+
+@media  all and (max-width: 868px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    header {
+        position: fixed;
+        top: 0;
+        z-index: 1000;
+        border-bottom: 1px solid transparent;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 120%;
+        padding: 20px 20px;
+    }
+
+    header.sticky {
+        background: whitesmoke;
+        border-bottom: 1px solid whitesmoke;
+        padding: 12px 10%;
+    }
+
+    .logo{
+        font-size: 26px;
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+
+    .logo a {
+        text-decoration: none;
+        color: #8CED05;
+    }
+
+    span {
+        color: white;
+    }
+
+    .navList {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    #icon {
+        font-size: 2.5rem;
+        margin-left: 40px;
+        cursor: pointer;
+    }
+
+    .hamburger {
+        display: none;
+        font-size: 2rem;
+        cursor: pointer;
+        color: #8CED05;
+    }
+
+    .navList a {
+        display: inline-block;
+        color: whitesmoke;
+        font-weight: 500;
+        padding: 10px 10px;
+        font-size: 1.1rem;
+        animation: slideAnimation 1s ease forwards;
+        opacity: 0;
+    }
+
+    #middleLineHero{
+        position: absolute;
+        top: 59%;
+
+        width: 108.2%;
+        height: 2px;
+        background-color: #8CED05;
+    }
+
+
+}
