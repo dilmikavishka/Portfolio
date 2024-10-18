@@ -6,11 +6,7 @@
             scroll-behavior: smooth;
             list-style-type: none;
             text-decoration: none;
-            /*background-color: #09012c;*/
             background-color: #0b0326;
-            /*overflow-x: hidden !important;*/
-            /*background-color: #03000F;*/
-            /*overflow-x: hidden;*/
 
         }
 
@@ -89,7 +85,6 @@
             padding: 10px 20px;
             font-size: 1.2rem;
             animation: slideAnimation 1s ease forwards;
-            /*animation-delay: calc(.3s * var(--i));*/
             opacity: 0;
         }
 
