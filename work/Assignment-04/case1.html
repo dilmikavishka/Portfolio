@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="assets/style/normalize.css">
+  <link rel="stylesheet" href="assets/lib/fontawesome-free-6.6.0-web">
+  <style>
+    section{
+      width: 600px;
+      height: 600px;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+    }
+    section > div {
+      position: relative;
+      width: 70px;
+      height: 100px;
+      background: #b420c4;
+      align-items: flex-start;
+      transition-duration: 1s;
+      transition-timing-function: ease-out;
+    }
+    section>div>img{
+      position: absolute;
+      bottom: 0;
+      top: 0;
+      margin: auto;
+      right: 0;
+
+    }
+    section>div>h1{
+      color: white;
+      display: none;
+
+    }
+
+    section>div:hover{
+      width: 400px ;
+      height: 100px ;
+    }
+
+    section>div:hover>h1{
+
+      display: block;
+      text-align: center;
+
+    }
+
+  </style>
+
+</head>
+<body>
+
+<section>
+  <div>
+    <img src="assets/images/icons8-menu-squared-50.png" alt="img1" width="60">
+    <h1>first menu</h1>
+  </div>
+  <div>
+    <img src="assets/images/icons8-lorry-50.png" alt="img1" width="60">
+    <h1>second menu</h1>
+  </div>
+  <div>
+    <img src="assets/images/icons8-order-80.png" alt="img1" width="60">
+    <h1>third menu</h1>
+  </div>
+  <div> <img src="assets/images/icons8-order-100.png" alt="img1" width="60">
+    <h1>fourth menu</h1>
+  </div>
+  <div>
+    <img src="assets/images/icons8-menu-48.png" alt="img1" width="60">
+    <h1>fifth menu</h1>
+  </div>
+</section>
+
+<script src="assets/lib/fontawesome-free-6.6.0-web"></script>
+
+</body>
+</html>

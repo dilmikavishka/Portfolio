@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>case3</title>
+
+    <style>
+        body{
+            overflow: hidden;
+        }
+
+        div{
+            width: 120px;
+            height: 80px;
+            background: deeppink;
+            border-radius: 10px;
+            animation-name: my-animation;
+            animation: my-animation 3s infinite;
+        }
+
+        @keyframes my-animation {
+            0% {
+                margin-left: 0;
+
+            }
+            25% {
+                margin-left: calc(100vw - 150px);
+                margin-top: 0;
+                background-color: #fe9292;
+                transform: rotate(180deg);
+
+            }
+            50% {
+                margin-left: calc(100vw - 150px);
+                margin-top: calc(100vh - 80px);
+                background-color: #bc5cf1;
+                transform: rotate(0deg);
+
+
+            }
+            75% {
+                margin-left: 0;
+                margin-top: calc(100vh - 80px);
+                background-color: deepskyblue;
+                transform: rotate(-180deg);
+
+            }
+            100% {
+
+            }
+        }
+
+    </style>
+
+
+</head>
+<body>
+
+<div></div>
+
+</body>
+</html>

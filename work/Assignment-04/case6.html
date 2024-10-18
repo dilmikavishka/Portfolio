@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Case 6</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            overflow: hidden;
+        }
+        main>section{
+            position: relative;
+        }
+
+        main>section>div:first-child{
+            position: relative;
+            margin-top: -100px;
+            margin-left: -100px;
+        }
+
+        #road>div{
+            position: absolute;
+            top: 560px;
+            animation: slide infinite ease-in-out;
+            animation-duration: 6.15s;
+            animation-direction: normal;
+        }
+
+
+        #road>div:nth-child(2){
+            position: absolute;
+            top: 560px;
+            left: 5000px;
+        }
+
+
+
+        #city>div{
+            position: absolute;
+            top: 310px;
+            animation: slide infinite ease-in-out;
+            animation-duration: 6.15s;
+            animation-direction: normal;
+        }
+
+        #city>div:nth-child(2){
+            left: 1415px;
+        }
+
+        #city>div:nth-child(3){
+            left: 2830px;
+        }
+
+        main>section>div:nth-child(4){
+            position: absolute;
+            top: 490px;
+            left: 460px;
+        }
+
+        .wheels{
+            animation: wheel infinite ease-in-out;
+            animation-duration: 6.15s;
+            animation-direction: normal;
+        }
+
+        main>section>div:nth-child(5){
+            position: absolute;
+            top: 560px;
+            left: 488px;
+        }
+
+        main>section>div:nth-child(6){
+            position: absolute;
+            top : 560px;
+            left: 702px;
+        }
+
+        @keyframes slide {
+            0%{
+                transform: translateX(0%);
+            }
+
+            100%{
+                transform: translateX(-90%);
+            }
+        }
+
+        @keyframes wheel {
+            0% {
+                transform: rotate(0deg);
+            }
+            10%{
+                transform: rotate(0deg);
+            }
+            72% {
+                transform: rotate(360deg);
+            }
+
+            100%{
+                transform: rotate(220deg);
+            }
+        }
+    </style>
+</head>
+<body>
+
+<main>
+    <section>
+        <div>
+            <img src="assets/images/sky.jpg" alt="sky">
+        </div>
+        <div id="road">
+            <div>
+                <img src="assets/images/road.jpg" alt="road">
+            </div>
+            <div>
+                <img src="assets/images/road.jpg" alt="road">
+            </div>
+        </div>
+        <div id="city">
+            <div>
+                <img src="assets/images/city.png" alt="city">
+            </div>
+            <div>
+                <img src="assets/images/city.png" alt="city">
+            </div>
+            <div>
+                <img src="assets/images/city.png" alt="city">
+            </div>
+        </div>
+        <div>
+            <img src="assets/images/car.png" alt="car" width="350px">
+        </div>
+        <div class="wheels">
+            <img src="assets/images/wheel.png" alt="left_wheel" width="69px">
+        </div>
+        <div class="wheels">
+            <img src="assets/images/wheel.png" alt="right_city" width="69px">
+        </div>
+    </section>
+</main>
+
+</body>
+</html>

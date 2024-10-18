@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>case05</title>
+    <link rel="stylesheet" href="assets/style/normalize.css">
+
+    <style>
+
+        main{
+            width: 99.5vw;
+            height: 99vh;
+            border: 3px solid black;
+            overflow: hidden;
+            position: absolute;
+            margin: auto;
+            top: 0;
+            right: 0;
+            left: 0;
+            bottom: 0;
+        }
+
+        section{
+            display: flex;
+            width: fit-content;
+            animation: my-animation-slide 4s infinite alternate;
+
+        }
+
+        section>div{
+            width: 99.5vw;
+            height: 99vh;
+
+        }
+        section>div:nth-child(1){
+            background: url("assets/images/slide1.jpeg");
+            background-size: cover;
+            background-position: center;
+        }
+        section>div:nth-child(2){
+            background: url("assets/images/slide2.jpeg");
+            background-size: cover;
+            background-position: center;
+        }
+
+        section>div:nth-child(3){
+            background: url("assets/images/slide3.jpeg");
+            background-size: cover;
+            background-position: center;
+        }
+        section>div:nth-child(4){
+            background: url("assets/images/slide4.jpeg");
+            background-size: cover;
+            background-position: center;
+        }
+
+        @keyframes my-animation-slide {
+            /*5% ka dile ekak hadanawa animetion athara*/
+            0%,20% {
+                transform: translateX(0%);
+
+
+            }
+            25%,45% {
+                transform: translateX(-25%);
+
+
+            }
+            50%,70% {
+                transform: translateX(-50%);
+
+
+
+            }
+            75%,100% {
+                transform: translateX(-75%);
+
+            }
+            100% {
+
+            }
+
+        }
+
+    </style>
+
+</head>
+<body>
+
+<main>
+    <section>
+
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+
+    </section>
+</main>
+
+
+</body>
+</html>
