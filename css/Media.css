@@ -1,246 +1,246 @@
-@media all and (max-width:1440px) {
-    .navList a {
-        display: inline-block;
-        color: whitesmoke;
-        font-weight: 500;
-        padding: 0px 20px;
-        font-size: 1.6rem;
-        animation: slideAnimation 1s ease forwards;
-        opacity: 0;
-    }
+/*@media all and (max-width:1440px) {*/
+/*    .navList a {*/
+/*        display: inline-block;*/
+/*        color: whitesmoke;*/
+/*        font-weight: 500;*/
+/*        padding: 0px 20px;*/
+/*        font-size: 1.6rem;*/
+/*        animation: slideAnimation 1s ease forwards;*/
+/*        opacity: 0;*/
+/*    }*/
 
-    @keyframes slideAnimation {
-        0% {
-            opacity: 0;
-            transform: translateY(100px);
-        }
+/*    @keyframes slideAnimation {*/
+/*        0% {*/
+/*            opacity: 0;*/
+/*            transform: translateY(100px);*/
+/*        }*/
 
-        100% {
-            opacity: 1;
-            transform: translateY(0);
-        }
-    }
+/*        100% {*/
+/*            opacity: 1;*/
+/*            transform: translateY(0);*/
+/*        }*/
+/*    }*/
 
-    #HeroStarter {
-        position: relative;
-        font-family: "Inter", sans-serif;
-        font-size: 140px;
-        color: #8CED05;
-        margin-top: 16%;
-        left: 80%;
-        transform: translateX(-60%);
-        text-align: center;
-        display: inline-block;
-        width: 100%;
-        height: 200px;
-        overflow: hidden;
-        white-space: nowrap;
-        box-sizing: border-box;
+/*    #HeroStarter {*/
+/*        position: relative;*/
+/*        font-family: "Inter", sans-serif;*/
+/*        font-size: 140px;*/
+/*        color: #8CED05;*/
+/*        margin-top: 16%;*/
+/*        left: 80%;*/
+/*        transform: translateX(-60%);*/
+/*        text-align: center;*/
+/*        display: inline-block;*/
+/*        width: 100%;*/
+/*        height: 200px;*/
+/*        overflow: hidden;*/
+/*        white-space: nowrap;*/
+/*        box-sizing: border-box;*/
 
-    }
+/*    }*/
 
-    #HeroPara{
-        position: relative;
-        font-family: "Inter", sans-serif;
-        font-size: 32px;
-        font-weight: bold;
-        color: #F1F1F1;
-        width: 100%;
-        margin-left:300px;
-        margin-right: auto;
-        text-align: center;
-        margin-top: 1%;
-    }
+/*    #HeroPara{*/
+/*        position: relative;*/
+/*        font-family: "Inter", sans-serif;*/
+/*        font-size: 32px;*/
+/*        font-weight: bold;*/
+/*        color: #F1F1F1;*/
+/*        width: 100%;*/
+/*        margin-left:300px;*/
+/*        margin-right: auto;*/
+/*        text-align: center;*/
+/*        margin-top: 1%;*/
+/*    }*/
 
-    #about{
-        margin-left: 350px;
-    }
+/*    #about{*/
+/*        margin-left: 350px;*/
+/*    }*/
 
-    #aboutStarter {
-        position: relative;
-        color: #8CED05;
-        font-family: "Inter", sans-serif;
-        font-weight: normal;
-        font-size: 70px;
-        width: 100%;
-        margin-top: 250px;
-        margin-left: 400px;
+/*    #aboutStarter {*/
+/*        position: relative;*/
+/*        color: #8CED05;*/
+/*        font-family: "Inter", sans-serif;*/
+/*        font-weight: normal;*/
+/*        font-size: 70px;*/
+/*        width: 100%;*/
+/*        margin-top: 250px;*/
+/*        margin-left: 400px;*/
 
-    }
+/*    }*/
 
-    #aboutPicture {
-        margin-top: 80px;
-        margin-left: 40px;
-        border-radius: 0px 15px 0px 15px;
-        width: 600px;
-        height: 700px;
-        border: 2px solid #8CED05;
-        box-shadow: 0 0 10px #413e3e;
-        overflow: hidden;
-    }
-
-
-    #aboutParagraph{
-        position: absolute;
-        font-family: "Inter", sans-serif;
-        color: #F1F1F1;
-        font-size: 34px;
-        letter-spacing: 1px;
-        width: 40% ;
-        margin-top: -700px;
-        margin-left: 700px;
-    }
-
-    #education{
-        margin-left: 350px;
-    }
-
-    #educationStarter {
-        position: relative;
-        color: #8CED05;
-        font-family: "Inter", sans-serif;
-        font-weight: normal;
-        font-size: 70px;
-        width: 100%;
-        margin-top: 100px;
-        margin-left: 300px;
-        align-items: center;
-    }
-
-    #educationStarterDown{
-        display: none;
-        position: relative;
-        color: #F1F1F1;
-        font-family: "Roboto", sans-serif !important;
-        font-size: 18px;
-        margin-left: 630px;
-        margin-top: 20px;
-    }
-
-    #containerEdu {
-        display: flex;
-        justify-content: center;
-        align-items: flex-start;
-        width: 100%;
-        flex-wrap: nowrap;
-        margin-left: 100px;
-    }
-
-    .EducationContainer {
-        position: relative;
-        color: #F1F1F1;
-        border: 2px solid #413e3e;
-        flex: 1;
-        max-width: 50%;
-        height: 600px;
-        border-radius: 20px 0 20px 0;
-        margin: 20px;
-        transition: transform 1s ease, border-color 0.3s ease;
-    }
+/*    #aboutPicture {*/
+/*        margin-top: 80px;*/
+/*        margin-left: 40px;*/
+/*        border-radius: 0px 15px 0px 15px;*/
+/*        width: 600px;*/
+/*        height: 700px;*/
+/*        border: 2px solid #8CED05;*/
+/*        box-shadow: 0 0 10px #413e3e;*/
+/*        overflow: hidden;*/
+/*    }*/
 
 
+/*    #aboutParagraph{*/
+/*        position: absolute;*/
+/*        font-family: "Inter", sans-serif;*/
+/*        color: #F1F1F1;*/
+/*        font-size: 34px;*/
+/*        letter-spacing: 1px;*/
+/*        width: 40% ;*/
+/*        margin-top: -700px;*/
+/*        margin-left: 700px;*/
+/*    }*/
 
-    .EducationContainer:hover {
-        transform: scale(1.05);
-        border-color: #6b6b6b;
-        border-radius: 0px 20px 0px 20px;
-    }
+/*    #education{*/
+/*        margin-left: 350px;*/
+/*    }*/
 
-    .uniNameEdu{
-        background-color: transparent;
-        width: 100%;
-        position: relative;
-        color: #8CED05;
-        font-family: "Inter", sans-serif;
-        font-weight: bold;
-        font-size: 22px;
-        margin-top: 80px;
-        margin-left: 18px;
-    }
+/*    #educationStarter {*/
+/*        position: relative;*/
+/*        color: #8CED05;*/
+/*        font-family: "Inter", sans-serif;*/
+/*        font-weight: normal;*/
+/*        font-size: 70px;*/
+/*        width: 100%;*/
+/*        margin-top: 100px;*/
+/*        margin-left: 300px;*/
+/*        align-items: center;*/
+/*    }*/
 
-    .uniMajorCat{
-        background-color: transparent;
-        color: #F1F1F1;
-    }
+/*    #educationStarterDown{*/
+/*        display: none;*/
+/*        position: relative;*/
+/*        color: #F1F1F1;*/
+/*        font-family: "Roboto", sans-serif !important;*/
+/*        font-size: 18px;*/
+/*        margin-left: 630px;*/
+/*        margin-top: 20px;*/
+/*    }*/
 
-    .uniMajorEdu{
-        background-color: transparent;
-        width: 100%;
-        position: absolute;
-        color: #8CED05;
-        font-family: "Inter", sans-serif;
-        font-weight: bold;
-        font-size: 20px;
-        margin-top: 20px;
-        margin-left: 18px;
-    }
+/*    #containerEdu {*/
+/*        display: flex;*/
+/*        justify-content: center;*/
+/*        align-items: flex-start;*/
+/*        width: 100%;*/
+/*        flex-wrap: nowrap;*/
+/*        margin-left: 100px;*/
+/*    }*/
 
-    .uniDescEdu{
-        background-color: transparent;
-        position: absolute;
-        color: #F1F1F1;
-        font-family: "Inter", sans-serif;
-        font-weight: normal;
-        font-size: 17px;
-        margin-top: 60px;
-        margin-left: 18px;
-        letter-spacing: 1px;
+/*    .EducationContainer {*/
+/*        position: relative;*/
+/*        color: #F1F1F1;*/
+/*        border: 2px solid #413e3e;*/
+/*        flex: 1;*/
+/*        max-width: 50%;*/
+/*        height: 600px;*/
+/*        border-radius: 20px 0 20px 0;*/
+/*        margin: 20px;*/
+/*        transition: transform 1s ease, border-color 0.3s ease;*/
+/*    }*/
 
-    }
 
-    #skills-section{
-        margin-left: 350px;
-    }
 
-    #projects{
-        margin-left: 350px;
-    }
+/*    .EducationContainer:hover {*/
+/*        transform: scale(1.05);*/
+/*        border-color: #6b6b6b;*/
+/*        border-radius: 0px 20px 0px 20px;*/
+/*    }*/
 
-    #assignments{
-        margin-left: 350px;
-    }
-    #gallery{
-        margin-left: 350px;
-    }
-    #contact{
-        margin-left: 350px;
-    }
-    .gallery-grid {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: auto;
-        gap: 10px;
-    }
+/*    .uniNameEdu{*/
+/*        background-color: transparent;*/
+/*        width: 100%;*/
+/*        position: relative;*/
+/*        color: #8CED05;*/
+/*        font-family: "Inter", sans-serif;*/
+/*        font-weight: bold;*/
+/*        font-size: 22px;*/
+/*        margin-top: 80px;*/
+/*        margin-left: 18px;*/
+/*    }*/
 
-    #contactMeStarter {
-        position: relative;
-        color: #F1F1F1;
-        font-family: "Inter", sans-serif;
-        font-weight: normal;
-        font-size: 30px;
-        margin-top: 50px;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        align-items: center;
-    }
-    footer {
-        position: fixed;
-        bottom: 0;
-        width: 100%;
-        color: white;
-        text-align: center;
-        padding: 15px;
-    }
-    #contactMeForm{
-        position: relative;
-        width: 70%;
-        height: 620px;
-        left: 15%;
-        border-radius: 30px;
-    }
+/*    .uniMajorCat{*/
+/*        background-color: transparent;*/
+/*        color: #F1F1F1;*/
+/*    }*/
 
-}
+/*    .uniMajorEdu{*/
+/*        background-color: transparent;*/
+/*        width: 100%;*/
+/*        position: absolute;*/
+/*        color: #8CED05;*/
+/*        font-family: "Inter", sans-serif;*/
+/*        font-weight: bold;*/
+/*        font-size: 20px;*/
+/*        margin-top: 20px;*/
+/*        margin-left: 18px;*/
+/*    }*/
+
+/*    .uniDescEdu{*/
+/*        background-color: transparent;*/
+/*        position: absolute;*/
+/*        color: #F1F1F1;*/
+/*        font-family: "Inter", sans-serif;*/
+/*        font-weight: normal;*/
+/*        font-size: 17px;*/
+/*        margin-top: 60px;*/
+/*        margin-left: 18px;*/
+/*        letter-spacing: 1px;*/
+
+/*    }*/
+
+/*    #skills-section{*/
+/*        margin-left: 350px;*/
+/*    }*/
+
+/*    #projects{*/
+/*        margin-left: 350px;*/
+/*    }*/
+
+/*    #assignments{*/
+/*        margin-left: 350px;*/
+/*    }*/
+/*    #gallery{*/
+/*        margin-left: 350px;*/
+/*    }*/
+/*    #contact{*/
+/*        margin-left: 350px;*/
+/*    }*/
+/*    .gallery-grid {*/
+/*        display: grid;*/
+/*        grid-template-columns: repeat(3, 1fr);*/
+/*        grid-template-rows: auto;*/
+/*        gap: 10px;*/
+/*    }*/
+
+/*    #contactMeStarter {*/
+/*        position: relative;*/
+/*        color: #F1F1F1;*/
+/*        font-family: "Inter", sans-serif;*/
+/*        font-weight: normal;*/
+/*        font-size: 30px;*/
+/*        margin-top: 50px;*/
+/*        margin-left: auto;*/
+/*        margin-right: auto;*/
+/*        text-align: center;*/
+/*        align-items: center;*/
+/*    }*/
+/*    footer {*/
+/*        position: fixed;*/
+/*        bottom: 0;*/
+/*        width: 100%;*/
+/*        color: white;*/
+/*        text-align: center;*/
+/*        padding: 15px;*/
+/*    }*/
+/*    #contactMeForm{*/
+/*        position: relative;*/
+/*        width: 70%;*/
+/*        height: 620px;*/
+/*        left: 15%;*/
+/*        border-radius: 30px;*/
+/*    }*/
+
+/*}*/
 
 
 @media (max-width: 1024px) {
