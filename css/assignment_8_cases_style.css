@@ -172,4 +172,25 @@ footer a{
     padding: .6rem;
     border-radius: 5px;
 }
+.code-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.code-buttons button {
+    background-color: var(--hover-color);
+    color: var(--bg-color);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.code-buttons button:hover {
+    background-color: #7CDB04;
+}
 
