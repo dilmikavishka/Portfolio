@@ -723,13 +723,11 @@
         }
 
         .card-front {
-            /*background: linear-gradient(110deg, #8ced05, rgba(177, 224, 178, 0.58));*/
             background-color: transparent;
             border: 1px solid #F1F1F1;
         }
 
         .card-back {
-            /*background-color: rgba(241, 241, 241, 0.44);*/
             background-color: transparent;
             border: 1px solid #F1F1F1;
 
@@ -896,9 +894,6 @@
             transform: scale(1.05);
             transition: all 0.3s ease-in-out;
         }
-
-
-
 
         #contact-submit{
             background-color: #F1F1F1;
