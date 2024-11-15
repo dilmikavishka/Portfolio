@@ -1,14 +1,22 @@
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'poppins', sans-serif;
-            scroll-behavior: smooth;
-            list-style-type: none;
-            text-decoration: none;
-            background-color: #0b0326;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    scroll-behavior: smooth;
+    list-style-type: none;
+    text-decoration: none;
+    /*background-color: #09012c;*/
+    background-color: #0b0326;
+    /*overflow-x: hidden !important;*/
+    /*background-color: #03000F;*/
+    /*overflow-x: hidden;*/
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 
-        }
+}
 
         html {
             overflow-x: hidden;
